@@ -1,0 +1,46 @@
+---
+layout: blog
+---
+
+<!-- Main -->
+
+
+
+      <div id="main">
+
+        <!-- Post -->
+          <article class="post">
+            <header>
+              <div class="title">
+                <h2><a href="#">{{page.title}}</a></h2>
+                <p>{{page.excerpt}}</p>
+              </div>
+              <div class="meta">
+                <time class="published" datetime="2015-11-01">{{page.date | date_to_long_string}}</time>
+                <a href="#" class="author"><span class="name">{{page.author}}</span><img src="https://www.alternativeeducationindia.net/img/articles/avatar.png" alt="" /></a>
+              </div>
+            </header>
+            <div class="wrapper">
+            <span class="image featured"><img src="images/pic01.jpg" alt="" /></span>
+
+
+
+            <p>
+              {{content}}
+            </p>
+
+            <footer>
+              <ul class="stats">
+                <li><a href="#">General</a></li>
+                <li><a href="#" class="icon fa-heart">28</a></li>
+                <li><a href="#" class="icon fa-comment">128</a></li>
+              </ul>
+            </footer>
+            </div>
+          </article>
+
+      </div>
+
+
+
+  </div>

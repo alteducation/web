@@ -1,0 +1,103 @@
+---
+layout: blog
+---
+<!-- Wrapper -->
+	<div id="wrapper">
+
+
+
+
+
+		<!-- Main -->
+			<div id="main">
+      {% for blog in paginator.posts %}
+				<!-- Post -->
+					<article  class="post">
+						<header>
+							<div class="title">
+								<h2><a href="{{site.baseurl}}{{blog.url}}">{{blog.title}}</a></h2>
+								<p>"{{blog.excerpt}}</p>
+							</div>
+							<div class="meta">
+								<time class="published">{{blog.date | date_to_long_string }}</time>
+								<a href="" class="author"><span class="">{{blog.author}}</span><img src="https://www.alternativeeducationindia.net/img/articles/avatar.png" alt="" /></a>
+							</div>
+						</header>
+						<a href="{{site.baseurl}}{{blog.url}}" class="image featured"><img src="https://www.alternativeeducationindia.net/img/articles/pic01.jpg" alt="" /></a>
+						<p>
+              {{ blog.content | strip_html | truncatewords:75 }}
+							</p>
+							<footer>
+								<ul class="actions">
+									<li><a href="{{site.baseurl}}{{blog.url}}" class="button big">Continue Reading</a></li>
+								</ul>
+								<ul class="stats">
+									<li><a href="#">General</a></li>
+									<li><a href="#" class="icon fa-heart">28</a></li>
+									<li><a href="#" class="icon fa-comment">128</a></li>
+								</ul>
+							</footer>
+					</article>
+
+        {% endfor %}
+
+
+
+
+				<!-- Pagination -->
+				<ul class="actions pagination">
+					{% if paginator.previous_page %}
+						<li><a href="{{ paginator.previous_page_path }}" class="button big previous">Previous Post</a></li>
+					{% else %}
+						<li><a href="#" class="disabled button big previous">Previous Post</a></li>
+					{% endif %}
+					{% if paginator.next_page %}
+						<li><a href="{{ paginator.next_page_path }}" class="button big next">Next Post</a></li>
+					{% else %}
+						<li><a href="#" class="disabled button big next">Next Post</a></li>
+					{% endif %}
+				</ul>
+
+			</div>
+
+		<!-- Sidebar -->
+			<section id="sidebar">
+
+				<!-- Intro -->
+					<section id="intro">
+						<a href="#" class="logo"><img src="https://www.alternativeeducationindia.net/img/articles/logo.png" alt="" /></a>
+						<header>
+							<h2>Blog</h2>
+							<p></a></p>
+						</header>
+					</section>
+
+					<!-- About -->
+						<section class="blurb about-blog">
+							<h2>About</h2>
+							<p>
+
+							 Feel free to write about your Learning Journeys, Experieces, Reflections and Get It Featured Here</p>
+							<ul class="actions">
+								<li><a href="#" class="button">Send Form</a></li>
+							</ul>
+						</section>
+
+				{% for blog in site.posts offset:6 limit:8 %}
+				<!-- Mini Posts -->
+					<section>
+						<div class="mini-posts">
+
+							<!-- Mini Post -->
+								<article class="mini-post">
+									<header>
+										<h3><a href="{{site.baseurl}}{{blog.url}}">{{blog.title}}</a></h3>
+										<time class="published" datetime="2015-10-20">{{blog.date | date_to_long_string }}</time>
+										<a href="{{site.baseurl}}{{blog.url}}" class="author"><img src="https://www.alternativeeducationindia.net/img/articles/avatar.png" alt="" /></a>
+									</header>
+									<a href="{{site.baseurl}}{{blog.url}}" class="image"><img src="https://www.alternativeeducationindia.net/img/articles/pic1x.jpg" alt="" /></a>
+								</article>
+
+						</div>
+					</section>
+				{% endfor %}
