@@ -115,7 +115,7 @@ Navigation bar
 Banner
 ************************************/
 .banner{
-	background: url('https://www.alternativeeducationindia.net/img/main/bg-banner.jpg') no-repeat center top;
+	background: url('{{site.baseurl}}/img/main/bg-banner.jpg') no-repeat center top;
     background-size: cover;
 	  max-height: 700px;
     position: relative;
