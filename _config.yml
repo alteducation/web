@@ -1,0 +1,6 @@
+markdown: kramdown
+url: https://www.alternativeeducationindia.net
+exclude: ['README.md']
+paginate_path: "blog/page:num"
+paginate: 4
+plugins: [jekyll-paginate, jekyll-admin]
