@@ -83,7 +83,7 @@ layout: blog
 							</ul>
 						</section>
 
-				{% for blog in site.posts offset:6 limit:8 %}
+				{% for blog in site.posts offset:{6 | times:paginator.page} limit:8 %}
 				<!-- Mini Posts -->
 					<section>
 						<div class="mini-posts">

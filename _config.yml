@@ -3,4 +3,4 @@ url: https://www.alternativeeducation.in
 exclude: ['README.md']
 paginate_path: "blog/page:num"
 paginate: 4
-plugins: [jekyll-paginate, jekyll-admin]
+plugins: [jekyll-paginate, jekyll-admin, jekyll-sitemap]
