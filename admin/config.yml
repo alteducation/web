@@ -3,7 +3,7 @@ backend:
   repo: alteducation/web # Path to your Github repository
   branch: gh-pages # Branch to update
   publish_mode: editorial_workflow
-  media_folder: "/img/blog"
+media_folder: "/img/blog"
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
