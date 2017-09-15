@@ -3,6 +3,7 @@ layout: fullpost
 title: Is Home Education An Option For Me
 excerpt: To love one's children is to be in complete communication with them it is to see that they have the right kind of education that will help them to be sensitive, intelligent and integrated. - J Krishnamurti
 author: Clive
+image: homeschooling-for-me.jpg
 ---
 There are many parents who feel a deep dissatisfaction with the schooling that their children are receiving. Some wonder why their child has such a low level of achievement, and are concerned when they see various learning difficulties developing. Others, when they see children exhibiting strong emotional and behavioral problems, suspect the school environment is seriously damaging their child's well-being.
 
@@ -22,7 +23,7 @@ The children would not have enough socialization.
 What if they wanted to go to University?
 Would the children be able to learn enough skills at home?
 I wouldn't have enough time to do it.
-I just wouldn't know what to do. 
+I just wouldn't know what to do.
 
 Obviously to educate a child at home is an enormous step and undoubtedly represents a huge commitment. If it is contemplated at all, several fears may arise, such as:
 
@@ -32,7 +33,7 @@ In reality the fears listed are mere speculation. Do you actually know what woul
 
 "For many, the deepest and most abiding benefit of home schooling is the claiming (or reclaiming) of their family. Home schooling families spend incredible amounts of time together living, learning and playing. They have the opportunity to develop a depth of understanding and a commitment to the family that is difficult to attain when family members spend their days going in separate directions".
 
-Given the space, the freedom, learning comes naturally to children - they don't have to be forced into it but so often, with their emphasis on punishment and reward, with a system more or less based on fear, schools manage to pervert this love of learning. Consider these words of Albert Einstein: 
+Given the space, the freedom, learning comes naturally to children - they don't have to be forced into it but so often, with their emphasis on punishment and reward, with a system more or less based on fear, schools manage to pervert this love of learning. Consider these words of Albert Einstein:
 
 "It is, in fact, nothing short of a miracle that the modern methods of instruction have not yet entirely strangled the holy curiosity of inquiry; for this delicate little plant, aside from stimulation, stands mainly in need of freedom; without this it goes to wrack and ruin without fail. It is a very grave mistake to think that the enjoyment of seeing and searching can be promoted by means of coercion and a sense of duty. To the contrary, I believe that it would be possible to rob even a healthy beast of prey of its voraciousness, if it were possible, with the aid of a whip, to force the beast to devour continuously, even when not hungry".
 
@@ -50,7 +51,7 @@ Children start, perhaps unconsciously, to find out what it is they love to do in
 
 Here are some comments from parents who found the courage to home educate :
 
-"Let me tell you what happened to our son after we removed him from a local public school's first grade last November. He stopped wetting his bed. He stopped suffering from daily stomach upsets and headaches and he has not had a cold for six months, although he averaged one cold a month while attending school. He has gained five pounds and has grown almost two inches. And he is HAPPY! ........" 
+"Let me tell you what happened to our son after we removed him from a local public school's first grade last November. He stopped wetting his bed. He stopped suffering from daily stomach upsets and headaches and he has not had a cold for six months, although he averaged one cold a month while attending school. He has gained five pounds and has grown almost two inches. And he is HAPPY! ........"
 
 "The changes that have occurred in Ishmael since we took him out of school have been unbelievable. Gone are the fits of temper that erupted every day around 4pm, gone are the headaches, the lines of tension around his mouth, and gone is his depression....."
 

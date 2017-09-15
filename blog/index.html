@@ -20,10 +20,10 @@ layout: blog
 							</div>
 							<div class="meta">
 								<time class="published">{{blog.date | date_to_long_string }}</time>
-								<a href="" class="author"><span class="">{{blog.author}}</span><img src="https://www.alternativeeducationindia.net/img/articles/avatar.png" alt="" /></a>
+								<a href="" class="author"><span class="">{{blog.author}}</span><img src="{{site.baseurl}}/img/blog/avatar.png" alt="" /></a>
 							</div>
 						</header>
-						<a href="{{site.baseurl}}{{blog.url}}" class="image featured"><img src="https://www.alternativeeducationindia.net/img/articles/pic01.jpg" alt="" /></a>
+						<a href="{{site.baseurl}}{{blog.url}}" class="image featured"><img src="{{site.baseurl}}/img/blog/{{blog.image}}" alt="" /></a>
 						<p>
               {{ blog.content | strip_html | truncatewords:75 }}
 							</p>
@@ -34,7 +34,7 @@ layout: blog
 								<ul class="stats">
 									<li><a href="#">General</a></li>
 									<li><a href="#" class="icon fa-heart">28</a></li>
-									<li><a href="#" class="icon fa-comment">128</a></li>
+									<li><a href="{{site.baseurl}}{{blog.url}}#disqus_thread" class="icon fa-comment">Comments</a></li>
 								</ul>
 							</footer>
 					</article>
@@ -65,9 +65,9 @@ layout: blog
 
 				<!-- Intro -->
 					<section id="intro">
-						<a href="#" class="logo"><img src="https://www.alternativeeducationindia.net/img/articles/logo.png" alt="" /></a>
+						<!-- <a href="#" class="logo"><img src="{{site.baseurl}}/img/blog/logo.png" alt="" /></a> -->
 						<header>
-							<h2>Blog</h2>
+							<h2 id="blog-label"><a href="{{site.baseurl}}/blog">Blog</a></h2>
 							<p></a></p>
 						</header>
 					</section>
@@ -83,7 +83,8 @@ layout: blog
 							</ul>
 						</section>
 
-				{% for blog in site.posts offset:{6 | times:paginator.page} limit:8 %}
+				{% assign pageoffset = 6 | times:paginator.page %}
+		    {% for blog in site.posts offset:pageoffset limit:8 %}﻿
 				<!-- Mini Posts -->
 					<section>
 						<div class="mini-posts">
@@ -93,9 +94,9 @@ layout: blog
 									<header>
 										<h3><a href="{{site.baseurl}}{{blog.url}}">{{blog.title}}</a></h3>
 										<time class="published" datetime="2015-10-20">{{blog.date | date_to_long_string }}</time>
-										<a href="{{site.baseurl}}{{blog.url}}" class="author"><img src="https://www.alternativeeducationindia.net/img/articles/avatar.png" alt="" /></a>
+										<a href="{{site.baseurl}}{{blog.url}}" class="author"><img src="{{site.baseurl}}/img/blog/avatar.png" alt="" /></a>
 									</header>
-									<a href="{{site.baseurl}}{{blog.url}}" class="image"><img src="https://www.alternativeeducationindia.net/img/articles/pic1x.jpg" alt="" /></a>
+									<a href="{{site.baseurl}}{{blog.url}}" class="image"><img src="{{site.baseurl}}/img/blog/{{blog.image}}" alt="" /></a>
 								</article>
 
 						</div>

@@ -3,6 +3,7 @@ layout: fullpost
 title: Observations Of A Concerned Mother
 excerpt: He picked up this attitude of learning being "work", to be avoided, and gotten over with as soon as possible. - Nalini
 author: Nalini
+image: concerns-of-mother.jpg
 ---
 My son turned 7 last month. We relocated to the UAE four years ago, and initially took a while to settle down. He has spent a total of 2 complete years in school so far, and I find that he has learnt
 
@@ -14,9 +15,9 @@ I was upset with that!!! This insidious message that studying is something you c
 
 SO feeling the time he spent in school is
 
-1. A waste of years that so much can be don't with 
-2. Teaching him an attitude I just don't agree with 
-3. Spent getting into mischief out of boredom (I presume) 
+1. A waste of years that so much can be don't with
+2. Teaching him an attitude I just don't agree with
+3. Spent getting into mischief out of boredom (I presume)
 
 I reached the conclusion that home educating is the right way to go for us.
 

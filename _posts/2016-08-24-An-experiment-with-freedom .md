@@ -3,6 +3,7 @@ layout: fullpost
 title: An Experiment With Freedom
 excerpt: A Look into how children learn when they are left to explore their natural playful instincts.
 author: Jinan KB
+image: freedom-experiment.jpg
 ---
 
 I got involved in educational matters while doing my Engineering degree. In fact I dropped out for a year to be with children and "taught" in a primary school. The most important issue seemed to me lack of free thinking in us due the strong conditioning we undergo at schools, in society, by parents etc. To me being with children also meant to look at my own de-conditioning process. This was in 1983. Later from 1985 to 1988 I studied at the National Institute of Design, Ahmedabad. Here I felt even our sense of beauty is being conditioned. I started addressing fundamental issues related to learning, creativity, originality spontaneity, role of culture etc from this time. After I graduated from NID I decided to live in rural tribal areas in order to address my own deschooling/decolonising and de-conditioning) process. I have lived in Nagaland, rural Bengal, Orissa etc working with the traditional crafts people trying to imbibe what ever I can and taking care not to impose my notions. Over a period of time I have evolved a methodI call DO NOTHING METHOD which actually means the name itself - just let things happen. From 1993 onwards I have been living in a potter's colony in Kerala. As a collective process we have developed several products which if you are interested can see at the site www.kumbham.org

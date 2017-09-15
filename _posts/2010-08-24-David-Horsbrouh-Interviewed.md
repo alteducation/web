@@ -3,6 +3,7 @@ layout: fullpost
 title: David Horsburgh interviewed
 excerpt: An interview with David Horsburgh by Rosalind Wilson. First published in India International Quarterly 10 (1 March 1983)
 author: David Horsburgh
+image: horsbrough.jpg
 ---
 
 
@@ -18,19 +19,19 @@ RW: So that reflected in the school when you began it?
 
 DH: Yes, my idea was to have a village school. Well, of course, all sorts of influences, as you can imagine: I mean, Ivan Illich and A.S. Neil and so on. I wanted a school that was going to be very different from the present schools.
 
- 
+
 
 RW: Presumably because you thought the present schools weren't doing a good job?
 
 DH: In a way, yes, I'm sure they're not doing a good job.
 
- 
+
 
 RW: So when you started Neel Bagh, what did you think that the children would respond better to?
 
 DH: First of all, you must also have bean struck by what Neil said--the fact that schools are all prisons, and children jolly well have to go there. So I thought I'd have a school where children didn't --you know, could go or not go, come or not come, as the case might be. Also, 1 wanted a school without any punishments.
 
- 
+
 
 RW: That's similar to A.S. Neil, hm?
 
@@ -40,51 +41,51 @@ Then, I thought that the curriculum in most schools was very defective. Children
 
 I believe that one of the chief reasons for a lot of dropouts, a lot of failures in the school, is the division into classes. So we don't have any Grades, or Standards, or classes. The advantage of this is that all the children can go at their own speed, as you know.
 
- 
+
 
 RW: Then you have to have a fairly high teacher-to-pupil ratio for that, don't you?
 
 DH: Well, I am not sure about that. I can manage an English class of twenty-five, by myself. But of course, ours is a very low ratio compared with most of the rural schools at any rate.
 
- 
+
 
 RW: I see. But that also means that your quality of teaching has to be very good, doesn't it?
 
 DH: Well. I'm getting round to a completely different idea of the teacher: it's someone who doesn't teach, but who sets up suitable learning situations for each individual child, who learns by himself. People say to me, for example, "Look here, my dear chap, you don't know anything about politics; how can you possibly run a university course in Politics? You see, my job is not to teach: we always think of the teacher as somebody who knows and passes on things; therefore, in a college, you normally have got to have a teacher who has an M.A. in Politics to teach Politics, and a teacher with an M.A. in Literature to teach Literature. History to teach History, etc. etc. Now I don't have a degree in any of those disciplines, you see. But the thing is to get children to learn-- and not to teach them.
 
- 
+
 
 RW: Coming back again to your setting up the school, you decided on no rules, no punishments, Free coming and going as far as the children wanted. Therefore, the incentive to come had to be very strong motivation. You must have put a lot of thought into what you were going to teach, and how you were going to teach.
 
 DH: Motivation, absolutely vital, yes. I put a lot of thought into what makes children want to learn. Basically that's the essential thing: that they should want to learn, and then they will learn all right. We are a non-competition school; we don't have any marks, or grades, or promotions: we don't have punishments, we don't have rosettes and ribbons and prizes: so therefore we have a completely new concept of motivating children, you see; I think they are motivated by success. And I think that in my system of having no grades and no classes, no standards, each child is able to be successful at his own speed. And because he's successful, that pushes him on to learn some more.
 
- 
+
 
 Now if you have got a group of thirty-five children, the teacher must always be going at a speed which is not suitable for 60-70 per cent of the class: either too fast for the slow ones, or it's too slow for the bright ones. And so both ends turn off, as it were: the slow ones don't learn anything, you see, and the bright ones are frustrated because the teacher goes on saying the same thing again when they've already grasped things... In the system which we work, a child, if he's bright can read four years' work in one--in fact, I had a boy who read four English books, four years' work, in one year. Another child, who finds it difficult, for a variety of reasons, can spend a year and a half over that, or two years, if he likes...Even the slow one, therefore, is successful. My idea is to have a school where everybody is successful. That doesn't mean to say that some children are not going to be brighter than others: of course, they will be.
 
- 
+
 
 RW: But you don't find that there is any sort of functional motivation that “we will learn if it seems immediately, practically, useful”?
 
 DH: Oh, no. Certainly not with children. Because, after all, one of the things about education is that you never realize how useful it is until you're educated. It is of no use telling a man in a village, "See, education is great!" He can only think of it in terms of, "Well, will I get a job as a peon in the Government office, if I have an SSLC?" But that's not education: that's a technical paper. Somebody who’s not educated cannot see the actual value of education.
 
- 
+
 
 RW: So if just has to be an enjoyable occupation?
 
 DH: Exactly. The first step is that the child should like it. But children do, of course, immensely curious, they like games, they like playing and so forth. When they find that they are skilful, they learn skills, which are pleasant--and on they go, you see.
 
- 
+
 
 RW: Hm. But I believe you did make some effort to have them do manual labor? You had a fixed timetable? But didn't you describe them building their classrooms?
 
 DH: Oh, they have a timetable, all right. Oh yes. They have a timetable, and it's a pretty rigid one. But the children can come to class, or not. We don't have manual labor in the way that, shall we say, Gandhiji envisaged it. They did build yes, but that was a normal part of education.
 
- 
+
 
 We have a very wide curriculum. Their mother tongue is Telugu, so the idea is to make them bilingual in Telugu and in English. Also they learn Kannada, which is a State language, and Hindi, and Sanskrit. Now in addition, they have a very wide curriculum: Mathematics, Science, Environmental Studies, Art, Craft, Pottery and Carpentry.
 
- 
+
 
 RW: How did you decide what the curriculum should be?
 
@@ -100,7 +101,7 @@ We've got one boy who wants to join the IAS. We have a discussion every week, wh
 
 Yes, people criticize me and say, "You are drawing these children away from the village." (Of course it is always urban people who tell me this!)—I say, "Well, you see I'm not here to manipulate human beings. I'm here to give them the best kind of education I can think of their having. So that all their potential is brought out--that they are able to think, to feel, to have loving relationships, to be able to understand things, to speak, to express themselves, to use materials, to understand the environment, to understand what exploitation is, and all these various things. What they then do is not my business. I'm not here to say, 'You ought to stay in the village and help other villagers.' mean, if they want to do so, they will do so. If they want to go to the big city and become painters, then its O.K. by me, I'm not there to tell them what to do."
 
- 
+
 
 RW: Is your approach to working out a suitable curriculum for rural children so that they can find employment?
 
