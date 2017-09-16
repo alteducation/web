@@ -83,13 +83,14 @@ layout: blog
 							</ul>
 						</section>
 
-				{% assign pageoffset = 6 | times:paginator.page %}
-		    {% for blog in site.posts offset:pageoffset limit:8 %}﻿
+
 				<!-- Mini Posts -->
 					<section>
 						<div class="mini-posts">
 
 							<!-- Mini Post -->
+							{% assign pageoffset = 6 | times:paginator.page %}
+							{% for blog in site.posts offset:pageoffset limit:8 %}﻿
 								<article class="mini-post">
 									<header>
 										<h3><a href="{{site.baseurl}}{{blog.url}}">{{blog.title}}</a></h3>
@@ -98,7 +99,7 @@ layout: blog
 									</header>
 									<a href="{{site.baseurl}}{{blog.url}}" class="image"><img src="{{site.baseurl}}{{blog.image}}" alt="" /></a>
 								</article>
+								{% endfor %}
 
 						</div>
 					</section>
-				{% endfor %}
