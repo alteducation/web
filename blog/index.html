@@ -65,7 +65,7 @@ layout: blog
 
 				<!-- Intro -->
 					<section id="intro">
-						<a href="#" class="logo"><img src="{{site.baseurl}}/img/blog/logo.png" alt="" /></a> 
+						<a href="#" class="logo"><img src="{{site.baseurl}}/img/blog/logo.png" alt="" /></a>
 						<header>
 							<h2 id="blog-label"><a href="{{site.baseurl}}/blog">Blog</a></h2>
 							<p></a></p>
@@ -94,7 +94,7 @@ layout: blog
 								<article class="mini-post">
 									<header>
 										<h3><a href="{{site.baseurl}}{{blog.url}}">{{blog.title}}</a></h3>
-										<time class="published" datetime="2015-10-20">{{blog.date | date_to_long_string }}</time>
+										<time class="published" datetime="{{blog.date | date_to_long_string }}">{{blog.date | date_to_long_string }}</time>
 										<a href="{{site.baseurl}}{{blog.url}}" class="author"><img src="{{site.baseurl}}/img/blog/avatar.png" alt="" /></a>
 									</header>
 									<a href="{{site.baseurl}}{{blog.url}}" class="image"><img src="{{site.baseurl}}{{blog.image}}" alt="" /></a>
@@ -103,3 +103,20 @@ layout: blog
 
 						</div>
 					</section>
+					<!-- Posts List -->
+							<section>
+								<ul class="posts">
+									{% assign minipageoffset = 12 | times:paginator.page %}
+									{% for blog in site.posts offset:minipageoffset limit:8 %}﻿
+									<li>
+										<article>
+											<header>
+												<h3><a href="{{site.baseurl}}{{blog.url}}">{{blog.title}}</a></h3>
+												<time class="published" datetime="{{blog.date | date_to_long_string }}">{{blog.date | date_to_long_string }}</time>
+											</header>
+											<a href="{{site.baseurl}}{{blog.url}}" class="image"><img src="{{site.baseurl}}{{blog.image}}" alt="" /></a>
+										</article>
+									</li>
+									{% endfor %}
+							</ul>
+							</section>
