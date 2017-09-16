@@ -2176,9 +2176,16 @@
 				width: 100%;
 			}
 /* Share Button */
+
+.share-page-fa {
+
+	display: inline;
+	margin: 4% 0 0 0;
+}
 .share-page {
+	text-align: center;
 	font-size: 1.3em;
-  text-align: left;
+
   padding: 8px 15px;
   border-radius: 5px;
   margin: 1.5em 0;
@@ -2837,6 +2844,7 @@
 		}
 
 		@media screen and (max-width: 736px) {
+
 			.author img{
 				display: none;
 			}
@@ -3181,6 +3189,10 @@
 		}
 
 		@media screen and (max-width: 736px) {
+			.share-page-fa {
+				display: block;
+				margin: 5% 0 0 0;
+			}
 
 			#header {
 				height: 2.75em;
