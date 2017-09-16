@@ -3493,9 +3493,27 @@
 		}
 
   @media screen and (max-width: 480px){
+		.post{
+			padding: 3% 2.5% 3% 2.5%;
+		}
+		.post h2{
+			line-height: 1.3em;
+		}
 
 		.post > footer .stats {
 			padding: 6% 0;
+			justify-content: space-around;
+			font-size: 0.9em;
 
 		}
 	}
+	@media screen and (min-width: 480px) and (max-width: 768px){
+
+		.post>footer{
+			flex-direction: column-reverse;
+		}
+		.post > footer .stats {
+			padding: 5% 0;
+
+
+		}
