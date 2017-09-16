@@ -3218,10 +3218,12 @@
 		}
 
 		@media screen and (max-width: 736px) {
-
-			#wrapper {
-				padding: 1.5em;
+			h2{
+				line-height: 1.2em;
 			}
+		#wrapper{
+			padding-top: 1%;
+		}
 
 		}
 
