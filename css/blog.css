@@ -3493,17 +3493,21 @@
 		}
 
   @media screen and (max-width: 480px){
-		.post{
-			padding: 3% 2.5% 3% 2.5%;
+		#wrapper{
+			padding: 1.8em;
 		}
 		.post h2{
 			line-height: 1.3em;
 		}
 
+		.post > footer .actions{
+			font-size: 0.9em;
+		}
+
 		.post > footer .stats {
 			padding: 6% 0;
 			justify-content: space-around;
-			font-size: 0.9em;
+			font-size: 0.8em;
 
 		}
 	}
@@ -3517,3 +3521,4 @@
 
 
 		}
+	}
