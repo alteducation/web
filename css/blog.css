@@ -3495,6 +3495,7 @@
   @media screen and (max-width: 480px){
 		#wrapper{
 			padding: 1.8em;
+			padding-top: 1%;
 		}
 		.post h2{
 			line-height: 1.3em;
