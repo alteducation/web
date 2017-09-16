@@ -23,7 +23,7 @@ layout: blog
 								<a href="" class="author"><span class="">{{blog.author}}</span><img src="{{site.baseurl}}/img/blog/avatar.png" alt="" /></a>
 							</div>
 						</header>
-						<a href="{{site.baseurl}}{{blog.url}}" class="image featured"><img src="{{site.baseurl}}/img/blog/{{blog.image}}" alt="" /></a>
+						<a href="{{site.baseurl}}{{blog.url}}" class="image featured"><img src="{{site.baseurl}}{{blog.image}}" alt="" /></a>
 						<p>
               {{ blog.content | strip_html | truncatewords:75 }}
 							</p>
@@ -96,7 +96,7 @@ layout: blog
 										<time class="published" datetime="2015-10-20">{{blog.date | date_to_long_string }}</time>
 										<a href="{{site.baseurl}}{{blog.url}}" class="author"><img src="{{site.baseurl}}/img/blog/avatar.png" alt="" /></a>
 									</header>
-									<a href="{{site.baseurl}}{{blog.url}}" class="image"><img src="{{site.baseurl}}/img/blog/{{blog.image}}" alt="" /></a>
+									<a href="{{site.baseurl}}{{blog.url}}" class="image"><img src="{{site.baseurl}}{{blog.image}}" alt="" /></a>
 								</article>
 
 						</div>

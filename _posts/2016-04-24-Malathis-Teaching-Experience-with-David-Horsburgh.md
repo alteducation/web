@@ -3,7 +3,7 @@ layout: fullpost
 title: Malathi's Teaching Experience with David Horsburgh
 excerpt: When David arrived, I saw that he was a long haired, well built, lungi clad, barefoot Englishman. He sang loudly as he entered. - Malathi
 author: Malathi
-image: malathis-experience.jpg
+image: /img/blog/malathis-experience.jpg
 ---
 
 

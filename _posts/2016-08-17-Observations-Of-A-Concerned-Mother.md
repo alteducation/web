@@ -3,7 +3,7 @@ layout: fullpost
 title: Observations Of A Concerned Mother
 excerpt: He picked up this attitude of learning being "work", to be avoided, and gotten over with as soon as possible. - Nalini
 author: Nalini
-image: concerns-of-mother.jpg
+image: /img/blog/concerns-of-mother.jpg
 ---
 My son turned 7 last month. We relocated to the UAE four years ago, and initially took a while to settle down. He has spent a total of 2 complete years in school so far, and I find that he has learnt
 

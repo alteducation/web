@@ -3,7 +3,7 @@ layout: fullpost
 title: Let Kids Learn Their Way
 excerpt: If we want the child’s curiosity, initiative, originality, creativity and sensitivity to be preserved, we do need to provide an opportunity to the child where these things are not snubbed before they blossom" - Vineeta
 author: Vineeta
-image: let-kids-learn-their-way.jpg
+image: /img/blog/let-kids-learn-their-way.jpg
 ---
 Academics is only a small part of growing up and learning. Now, what kind of academic work you are going to do with your children depends on your belief system. But sadly, many times, we deal with the children in a particular way that will lead them to grow into a particular kind of individuals which is quite different from, in fact most of the times, exactly opposite to, what we actually want them to be. A few examples here will help you see what I am trying to say.
 
