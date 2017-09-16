@@ -2175,6 +2175,22 @@
 			.image.main img {
 				width: 100%;
 			}
+/* Share Button */
+.share-page {
+	font-size: 1.3em;
+  text-align: left;
+  padding: 8px 15px;
+  border-radius: 5px;
+  margin: 1.5em 0;
+}
+.share-page a {
+  font-weight: 700;
+
+  margin-left: 10px;
+}
+.share-page a:hover {
+  border-bottom: 1px dashed #fff;
+}
 
 /* List */
 
