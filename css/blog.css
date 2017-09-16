@@ -1502,11 +1502,11 @@
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #2ebaae !important;
+			/*color: #2ebaae !important; */
 		}
 
 			a:hover:before {
-				color: #2ebaae !important;
+				/*color: #2ebaae !important;*/
 			}
 
 	strong, b {
@@ -3467,7 +3467,7 @@
 					}
 
 					#menu .links > li a:hover h3 {
-						color: #2ebaae;
+						/*color: #2ebaae; */
 					}
 
 				#menu .links > li:first-child {
