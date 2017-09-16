@@ -2603,6 +2603,9 @@
 		margin: 0 0 3em 0;
 		position: relative;
 	}
+	.post p{
+		text-align: justify;
+	}
 
 		.post > header {
 			display: -moz-flex;
@@ -2842,6 +2845,7 @@
 		@media screen and (max-width: 480px) {
 
 			.post > header .meta {
+				font-size: 0.8em;
 				-moz-align-items: center;
 				-webkit-align-items: center;
 				-ms-align-items: center;
@@ -3487,3 +3491,11 @@
 			}
 
 		}
+
+  @media screen and (max-width: 480px){
+
+		.post > footer .stats {
+			padding: 6% 0;
+
+		}
+	}
