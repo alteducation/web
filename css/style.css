@@ -278,9 +278,12 @@ Extra Top Margin
 Footer
 ************************************/
 .footer {
-    padding: 5px 0 20px;
-    background: #383838;
-    color: #ffffff;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  padding: 5px 0 20px;
+  background: #383838;
+  color: #ffffff;
 }
 .footer a {
     color: #fff;
@@ -556,7 +559,14 @@ hr{
 	font-size: 19px;
 	font-family: 'Open Sans',sans-serif;
 }
+/*Thank You Page */
+.thank-you{
+  padding: 4% 7%;
 
+  height: 100%;
+  margin-top: 100px;
+  text-align: center;
+}
 /* Blog Submit Page */
 
 .submit-container {
@@ -586,7 +596,7 @@ hr{
 }
 
 #contact h3 {
-  
+
   text-transform: uppercase;
   color: #717f86;
   text-align: center;
@@ -980,14 +990,14 @@ $num-of-tabs: 4;
 html, body {
   width: 100%;
 }
-
+/*
 h1 {
   font-size: 26px;
   background: $cyan;
 
   padding: 40px 0 100px 20%;
   margin-bottom: 50px;
-}
+} */
 
 label, p, a, h1, div {
   font-family: 'Open Sans', sans-serif;
