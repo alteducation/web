@@ -560,12 +560,15 @@ hr{
 /* Blog Submit Page */
 
 .submit-container {
-  max-width: 700px;
+
+  max-width: 1100px;
   width: 90%;
   margin: 0 auto;
   position: relative;
 }
-
+#post-content{
+  height: 30em !important;
+}
 #contact input[type="text"],
 #contact input[type="email"],
 #contact input[type="tel"],
@@ -583,7 +586,9 @@ hr{
 }
 
 #contact h3 {
-  font-family: 'roboto';
+  
+  text-transform: uppercase;
+  color: #717f86;
   text-align: center;
   display: block;
   font-size: 1.5em;
@@ -701,6 +706,9 @@ Responsive media queries
   }
 }
 @media (min-width: 991px){
+  #contact{
+    margin-top: 105px;
+  }
 	.mobile{
 		display: none;
 	}

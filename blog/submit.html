@@ -4,22 +4,22 @@ layout: starter
 <section id="submit-form">
 <div class="submit-container">
   <form id="contact"  name="blog" action="thank-you" netlify>
-    <h3>Submit Blog</h3>
+    <h3></h3>
     <h4></h4>
     <fieldset>
-      <input placeholder="Blog Title" type="text" tabindex="1" required autofocus>
+      <input name="title" placeholder="Blog Title" type="text" tabindex="1" required autofocus>
     </fieldset>
     <fieldset>
-      <input placeholder="Author" type="text" tabindex="2" required>
+      <input name="author" placeholder="Author" type="text" tabindex="2" required>
     </fieldset>
     <fieldset>
-      <input placeholder="Your Email" type="email" tabindex="3" required>
+      <input name="email" placeholder="Your Email" type="email" tabindex="3" required>
     </fieldset>
     <fieldset>
-      <input placeholder="Blog Excerpt (Optional)" type="text" tabindex="4" >
+      <input name="excerpt" placeholder="Blog Excerpt (Optional)" type="text" tabindex="4" >
     </fieldset>
     <fieldset>
-      <textarea placeholder="Type or paste your blog post here...." tabindex="5" required></textarea>
+      <textarea name="content" id="post-content" placeholder="Type or paste your blog post here...." tabindex="5" required></textarea>
     </fieldset>
     <fieldset>
       <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
