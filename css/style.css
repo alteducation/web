@@ -13,6 +13,7 @@ body {
 ol, ul {
 	list-style: none;
 }
+
 .wrapper{
   max-width: 1020px;
   width: 100%;
@@ -119,10 +120,12 @@ Banner
     background-size: cover;
 	  max-height: 700px;
     position: relative;
+    height: 100vh;
 }
 .bg-color{
 	background-color: RGBA(12, 11, 11, 0.75);
-	min-height: 700px;
+	max-height: 700px;
+  height: 100vh;
 
 }
 .text-dec{
@@ -141,6 +144,7 @@ Banner
 	font-size: 45px;
 	color: #fff;
   position: absolute;
+  width: 80%;
   top: 50%;
   left:50%;
   transform: translate(-50%,-50%);
@@ -228,7 +232,7 @@ Banner
     padding-right: 5px;
 }
 .big-text{
-    font-size: 35px;
+    font-size: 23px;
 }
 .small-text{
     font-size: 16px;
@@ -253,6 +257,12 @@ Banner
 /***********************************
 Categories
 ************************************/
+.imghvr-fold-up {
+  width: 100%;
+}
+.imghvr-fold-up img {
+  width: 100%;
+}
 [class*=" imghvr-"] figcaption, [class^="imghvr-"] figcaption {
     background-color: #5FCF80;
 }
@@ -836,28 +846,37 @@ Responsive media queries
 
     /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
+  .big-text{
+    font-size: 30px;
+  }
 	.section-padding{
 	padding-bottom:60px;
     }
 
-
+  }
    /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
+
+
 	.section-padding{
 	padding-bottom:60px;
     }
 
+  }
 
 
 
 
 
-@media only screen and (min-width: 768x){
+@media only screen and (min-width : 768px) {
+  .intro-para{
+    width: 50%;
+  }
 
-}
-    .ser-text {
+
+  .ser-text {
     font-size: 20px;
-    }
+  }
 	.section-padding{
 	padding-bottom:60px;
     }
@@ -870,7 +889,7 @@ Responsive media queries
     .price-table .pricing-head h4 {
     font-size: 18px;
     }
-}
+
 	}
 
 @media (min-width: 451px) {
@@ -892,81 +911,8 @@ Responsive media queries
 		.header-section p{
         margin:5 auto;
     }
-@media (min-width: 20px) {
+  }
 
-
-
-	.text-dec {
-    font-size: 20px;
-    }
-    .big-text {
-    font-size: 30px;
-    }
-    .small-text {
-    font-size: 14px;
-    }
-    .intro-para {
-    font-size: 20px !important;
-
-    }
-
-    .header-section p{
-        font-size: 20px;
-				margin:5 auto;
-    }
-    .heading {
-    margin-bottom: 20px;
-    }
-    .orga-stru i {
-    font-size: 92px;
-    }
-    .orga-stru {
-    padding: 5px 5px 15px 5px;
-    width: 75px;
-    margin-bottom: 20px;
-    }
-    .orga-stru h3 {
-    font-size: 28px;
-    }
-    .orga-stru p {
-    font-size: 13px;
-    }
-    h3.det-txt {
-    font-size: 28px;
-    }
-    .cta-2-txt {
-    font-size: 20px;
-    }
-    .service-box, .text-comment, .price-table{
-        margin-bottom: 30px;
-    }
-    .contact-form-button{
-        width: 40%;
-    }
-    .footer .social-links li {
-    margin: 0 5px 25px;
-    }
-    .cta-2-form-submit-btn {
-    font-size: 10px;
-    }
-    .cta-2-form input[type="email"] {
-    padding: 13px 10px;
-    font-size: 10px;
-    min-width: 187px;
-    }
-    .modal-sm {
-    width: 300px;
-    }
-    .login-box-body {
-    padding: 15px 20px;
-    }
-    .navbar-default .navbar-brand{
-        margin-left: 10px;
-    }
-    .navbar-default .navbar-nav > li > a{
-        text-align: center;
-    }
-}
 
 /* tab books page*/
 
