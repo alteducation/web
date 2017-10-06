@@ -50,6 +50,10 @@ a:hover, a:focus{
 /***********************************
 Navigation bar
 ************************************/
+header:after{
+  content: "";
+  display: inline-block;
+}
 .navbar-default .navbar-brand {
     color: #5FCF80;
 }
@@ -416,6 +420,192 @@ Footer
 .footer .form-control:focus{
     box-shadow: none;
 }
+/*----------------------*/
+/* Learning Spaces Page */
+/*---------------------*/
+
+/* Cards */
+.posts-box {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 40px 10px;
+  text-align: center;
+  list-style: none;
+}
+
+.posts-box li {
+  display: inline-block;
+  width: 320px;
+  max-width: 100%;
+  padding: 10px;
+  vertical-align: top;
+}
+
+.card {
+  text-align: left;
+  border-radius: 2px;
+  background: #FFFFFF;
+  box-shadow:
+    0 2px 4px rgba(0,0,0,0.10),
+    0 1px 2px rgba(0,0,0,0.22);
+}
+.card-info a{
+  color: #7B9985;
+
+  font-size: .8em;
+  display: block;
+}
+.card img {
+  height: 250px;
+  object-fit: cover;
+  display: block;
+  width: 100%;
+}
+
+.card div {
+  padding: 16px 20px;
+  border-bottom: 1px solid #EEEEEE;
+}
+
+.card div h3 {
+  text-align: center;
+  margin: 0;
+  color: white;
+
+
+  padding: 2%;
+  font-size: 1.2em;
+  background-color: #3ECC6F;
+}
+.card-info{
+  padding: 0 !important;
+}
+.card div h4{
+  font-size: .8em;
+}
+.card div p {
+  margin: 8px 0;
+  font-size: .9em;
+}
+.card-info-inner{
+  padding: 5%;
+}
+
+.ln-btn {
+  color: #FFC107;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: .8em;
+}
+
+.ln-btn:hover {
+  opacity: .7;
+}
+
+/* Page */
+.modal,
+.modal-box {
+  z-index: 900;
+}
+
+.modal-sandbox {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: transparent;
+}
+
+.modal {
+  /*display: none; */
+  position: fixed;
+  width: 100%;
+  min-height: 100% !important;
+  left: 0;
+  top: 0;
+
+  overflow: auto;
+}
+
+.modal-box {
+  position: relative;
+  width: 80%;
+  max-width: 920px;
+  margin: 100px auto;
+  background: #FFFFFF;
+  animation-name: modalbox;
+  animation-duration: .3s;
+  animation-timing-function: ease-out;
+}
+
+.modal-header img {
+  width: 100%;
+}
+
+.modal-body {
+  padding: 60px 8%;
+}
+
+.modal-body h2 {
+  margin-bottom: 30px;
+  letter-spacing: .06em;
+}
+
+.modal-body p {
+  font-size: .9em;
+  line-height: 1.5em;
+}
+
+@-webkit-keyframes modalbox {
+  0% {
+    top: -250px;
+    opacity: 0;
+  }
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes modalbox {
+  0% {
+    top: -250px;
+    opacity: 0;
+  }
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+.ln-btn {
+  min-width: 120px;
+  top: 50%;
+  left: 50%;
+  padding: 16px 32px;
+  margin: 24px 8px 0 0;
+  background: transparent;
+  text-decoration: none;
+  border: 1px solid #5FCF80;
+  outline: none;
+  color: #5FCF80;
+  cursor: pointer;
+}
+
+.disabled {
+  opacity: .4;
+  cursor: auto;
+}
+
+@media (max-width: 620px) {
+  .ln-btn {
+    width: 100%;
+    min-width: auto;
+  }
+}
+
+
 /* Get Involved Page */
 #main-cover{
 
