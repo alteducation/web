@@ -518,7 +518,7 @@ Footer
 }
 
 .modal {
-  /*display: none; */
+  display: none;
   position: fixed;
   width: 100%;
   min-height: 100% !important;
@@ -527,7 +527,9 @@ Footer
 
   overflow: scroll;
 }
-
+.modal-body h5{
+  line-height: 1.5;
+}
 .modal-box {
   position: relative;
   width: 80%;
@@ -1268,7 +1270,7 @@ label {
 @media screen and (max-width: 540px) {
   .modal-links {
     margin: 10% 0;
-    
+
   }
 }
 
