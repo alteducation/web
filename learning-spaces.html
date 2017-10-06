@@ -29,7 +29,7 @@ layout: starter
           </div>
         </div>
         <div>
-          <a data-modal="{{forloop.index}}" class="button modal-show">See Full Information</a>
+          <a data-modal="{{forloop.index0}}" class="button modal-show" >See Full Information</a>
         </div>
       </div>
       <div class="modal" id="modal-name" >
@@ -68,30 +68,27 @@ layout: starter
   <script>
     var $= jQuery.noConflict();
     var modal = document.querySelectorAll('.modal');
-
+    var currentModalValue;
     var modalBtn = document.getElementsByClassName("modal-show");
     var closeBtn = document.querySelector('.close-post');
 
-    function openModal (){
-
-
-
-         modal[i].style.display = "block";
-
-
-
-
-
+    function openModal(){
+      modal[currentModalValue].style.display = "block";
       document.body.style.height ="100vh";
       $('.modal').scrollTop(0);
 
     }
-    function closeModal (){
-      modal.style.display = "none";
+    function closeModal(){
+      modal[currentModalValue].style.display = "none";
 
     }
+
     for(var i=0;i<modalBtn.length;i++){
-    modalBtn[i].addEventListener('click',openModal);
+    modalBtn[i].addEventListener('click', function(e){
+      currentModalValue = e.target.dataset.modal;
+      openModal();
+
+    });
     }
 
 
