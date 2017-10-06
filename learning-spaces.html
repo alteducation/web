@@ -1,6 +1,9 @@
 ---
 layout: starter
 ---
+<!-- Scroll Up Button -->
+
+<a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
 
 
 
@@ -20,9 +23,9 @@ layout: starter
           <h4>City: {{spaces.city}}</h4>
           <h4>State: {{spaces.state}}</h4>
           <p>{{spaces.description | truncatewords:25}}</p>
-          <a href="http://{{spaces.website}}"><i class="fa fa-globe" aria-hidden="true"></i> {{spaces.website | truncate:25}}</a>
-          <a href="tel:{{spaces.phone}}"><i class="fa fa-phone" aria-hidden="true"></i> {{spaces.phone}}</a>
-          <a href="mailto:{{spaces.email}}"><i class="fa fa-envelope" aria-hidden="true"></i> {{spaces.email}}</a>
+          <a href="http://{{spaces.website}}"><i class="fa fa-globe" aria-hidden="true"></i>&nbsp&nbsp{{spaces.website | truncate:25}}</a>
+          <a href="tel:{{spaces.phone}}"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp&nbsp{{spaces.phone}}</a>
+          <a href="mailto:{{spaces.email}}"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp&nbsp{{spaces.email}}</a>
           </div>
         </div>
         <div>
@@ -59,12 +62,17 @@ layout: starter
   </ul>
 
 
+
+  <script src="{{site.baseurl}}/js/jquery.min.js"></script>
+
   <script>
+    var $= jQuery.noConflict();
     var modal = document.querySelector('.modal');
     var modalBtn = document.getElementsByClassName("modal-show");
     var closeBtn = document.querySelector('.close-post');
     function openModal (){
       modal.style.display = "block";
+      document.body.style.height ="100vh";
     }
     function closeModal (){
       modal.style.display = "none";
@@ -73,4 +81,21 @@ layout: starter
     modalBtn[i].addEventListener('click',openModal);
     }
     closeBtn.addEventListener('click',closeModal);
+    <!-- Scroll Button -->
+
+    $(document).ready(function(){
+      $(window).scroll(function(){
+        if ($(this).scrollTop() > 100) {
+          $('#scroll').fadeIn();
+        } else {
+          $('#scroll').fadeOut();
+        }
+      });
+      $('#scroll').click(function(){
+        $("html, body").animate({ scrollTop: 0 }, 600);
+        return false;
+      });
+    });
+
+
   </script>
