@@ -1,0 +1,67 @@
+---
+layout: starter
+---
+
+
+
+  <!-- Thumbs -->
+
+  <ul class="posts-box">
+    {% for spaces in site.data.learning-spaces %}
+    <li>
+      <div class="card">
+        <a class="button" href="modal-name">
+          <img src="{{spaces.image}}" alt="">
+        </a>
+        <div class="card-info">
+          <h3>{{spaces.name}}</h3>
+          <div class="card-info-inner">
+          <h4>{{spaces.approach}}</h4>
+          <h4>City: {{spaces.city}}</h4>
+          <h4>State: {{spaces.state}}</h4>
+          <p>{{spaces.description | truncatewords:25}}</p>
+          <a href="http://{{spaces.website}}"><i class="fa fa-globe" aria-hidden="true"></i> {{spaces.website | truncate:25}}</a>
+          <a href="tel:{{spaces.phone}}"><i class="fa fa-phone" aria-hidden="true"></i> {{spaces.phone}}</a>
+          <a href="mailto:{{spaces.email}}"><i class="fa fa-envelope" aria-hidden="true"></i> {{spaces.email}}</a>
+          </div>
+        </div>
+        <div>
+          <a class="button modal-show">See Full Information</a>
+        </div>
+      </div>
+    </li>
+    <!-- Modal -->
+    <div class="modal" id="modal-name" >
+      <div class="modal-sandbox"></div>
+
+        <div class="modal-box">
+        <div class="modal-header">
+          <img src="{{spaces.image}}" class="inner-img" alt="">
+        </div>
+        <div class="modal-body">
+
+          <h2 class="inner-title">{{spaces.name}}</h2>
+          <div class="inner-text"><p>{{spaces.description}}</p></div>
+          <button  class="ln-btn close-post">Close</button>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+  </ul>
+
+
+  <script>
+    var modal = document.querySelector('.modal');
+    var modalBtn = document.getElementsByClassName("modal-show");
+    var closeBtn = document.querySelector('.close-post');
+    function openModal (){
+      modal.style.display = "block";
+    }
+    function closeModal (){
+      modal.style.display = "none";
+    }
+    for(var i=0;i<modalBtn.length;i++){
+    modalBtn[i].addEventListener('click',openModal);
+    }
+    closeBtn.addEventListener('click',closeModal);
+  </script>
