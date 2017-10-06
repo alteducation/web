@@ -568,6 +568,7 @@ Footer
 .modal-body p {
   font-size: .9em;
   line-height: 1.5em;
+  text-align: justify;
 }
 
 @-webkit-keyframes modalbox {
@@ -1264,7 +1265,12 @@ label {
     margin: 400px auto 0;
   }
 }
-
+@media screen and (max-width: 540px) {
+  .modal-links {
+    margin: 10% 0;
+    
+  }
+}
 
 
 
