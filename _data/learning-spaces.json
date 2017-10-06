@@ -1,0 +1,28 @@
+
+  [
+    {"name": "Rishi Valley",
+      "image": "/img/learning-spaces/rishi-valley-1.jpg",
+      "approach":"Jiddu Krishnamurti School",
+      "city":"Madanapalle",
+      "state":"Andhra Pradesh",
+      "description":"Rishi Valley School is an Indian boarding school, founded by the philosopher Jiddu Krishnamurti. The school has a holistic approach to education in the spirit of Krishnamurti's pedagogical vision.",
+      "address":"Rishi Valley, Chittoor District, Madanapalle, Andhra Pradesh 517352, India",
+      "website":"www.rishivalley.org",
+      "phone":"+91 8571280044",
+      "email":"office@rishivalley.org"
+
+    },
+    {"name": "Aarambh",
+      "image": "/img/learning-spaces/aarambh-1.jpg",
+      "approach":"Rudolf Steiner School",
+      "city":"Delhi",
+      "state":"Delhi",
+      "description":"Aarambh is a Waldorf school based on Rudolf Steiner’s philosophy. The school’s mantra is “Receive the children in reverence, educate them in love, and send them forth in freedom.” Each child is treated as a unique being, lovingly taught through play based and experiential learning with the belief that one day s/he will bloom into a well balanced, creative and humane individual.",
+      "address":"Block A, Shanti Kunj, Behind D3 Block, Vasant Kunj, New Delhi, INDIA",
+      "website":"www.aarambhwaldorf.wordpress.com/",
+      "phone":"+91 9560060441",
+      "email":"aarambh.delhiwaldorf@yahoo.in"
+
+    }
+
+  ]
