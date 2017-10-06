@@ -29,24 +29,33 @@ layout: starter
           <a class="button modal-show">See Full Information</a>
         </div>
       </div>
-    </li>
-    <!-- Modal -->
-    <div class="modal" id="modal-name" >
-      <div class="modal-sandbox"></div>
-
-        <div class="modal-box">
-        <div class="modal-header">
-          <img src="{{spaces.image}}" class="inner-img" alt="">
-        </div>
-        <div class="modal-body">
-
-          <h2 class="inner-title">{{spaces.name}}</h2>
-          <div class="inner-text"><p>{{spaces.description}}</p></div>
-          <button  class="ln-btn close-post">Close</button>
+      <div class="modal" id="modal-name" >
+        <div class="modal-sandbox"></div>
+          <div class="modal-box">
+          <div class="modal-header">
+            <img src="{{spaces.image}}" class="inner-img" alt="">
+          </div>
+          <div class="modal-body">
+            <h2 class="inner-title">{{spaces.name}}</h2>
+            <!--<div class="modal-desc">
+            <h6>Methodology: {{spaces.approach}}</h6>
+            <h6>City: {{spaces.city}}</h6>
+            <h6>State: {{spaces.state}}</h6>
+          </div>-->
+            <div class="inner-text"><p>{{spaces.description}}</p></div>
+            <div class="modal-links">
+            <a href="http://{{spaces.website}}"><i class="fa fa-globe" aria-hidden="true"></i> {{spaces.website | truncate:25}}</a>
+            <a href="tel:{{spaces.phone}}"><i class="fa fa-phone" aria-hidden="true"></i> {{spaces.phone}}</a>
+            <a href="mailto:{{spaces.email}}"><i class="fa fa-envelope" aria-hidden="true"></i> {{spaces.email}}</a>
+            </div>
+            <h5>Address: {{spaces.address}}</h5>
+            <button  class="ln-btn close-post">Close</button>
+          </div>
         </div>
       </div>
-    </div>
-  {% endfor %}
+    </li>
+    <!-- Modal -->
+    {% endfor %}
   </ul>
 
 
