@@ -17,8 +17,8 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "image", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "settings"
-    label: "Settings"
+  - name: "data-files"
+    label: "Data Files"
     files:
         - name: "learning-spaces"
           label: "Alternatve Learning Spaces"

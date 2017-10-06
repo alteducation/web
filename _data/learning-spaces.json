@@ -1,5 +1,5 @@
-
-  [
+{
+  "learning-spaces":[
     {"name": "Rishi Valley",
       "image": "/img/learning-spaces/rishi-valley-1.jpg",
       "approach":"Jiddu Krishnamurti School",
@@ -174,3 +174,4 @@
     }
 
   ]
+}
