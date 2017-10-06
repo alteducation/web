@@ -23,6 +23,30 @@
       "phone":"+91 9560060441",
       "email":"aarambh.delhiwaldorf@yahoo.in"
 
+    },
+    {"name": "Ukti",
+      "image": "/img/learning-spaces/ukti-1.jpg",
+      "approach":"Rudolf Steiner School",
+      "city":"Delhi",
+      "state":"Delhi",
+      "description":"Ukti, the first Waldorf-inspired school in Delhi, was established by a small group of parents and educators, who were motivated by a great need, in the highly fast-paced, rapidly growing capital city of Delhi, for a school that pauses to embrace childhood and to awaken and guide each child's innate sense of wonder, as it steers the learning process from spark to flame.",
+      "address":"H - 35, Sector - 128, Near Jaypee Hospital, Noida, India",
+      "website":"www.uktiwaldorf.org/",
+      "phone":"+91 9654445795",
+      "email":"info@uktiwaldorf.org"
+
+    },
+    {"name": "Mirambika Free Progress School",
+      "image": "/img/learning-spaces/mirambika-free-progress-school-1.jpg",
+      "approach":"Sri Aurobindo School",
+      "city":"Delhi",
+      "state":"Delhi",
+      "description":"Mirambika, Research Centre for Integral Education and Human Values, is a center ahead of its time, focusing on Integral Education which is based on the Integral Philosophy of Sri Aurobindo and The Mother. It is situated at the Sri Aurobindo Ashram campus in New Delhi.",
+      "address":"Sri Aurobindo Ashram - Delhi Branch Sri Aurobindo Marg New Delhi 110016",
+      "website":"www.mirambika.org",
+      "phone":"011- 26863741",
+      "email":"mirambika.81@gmail.com"
+
     }
 
   ]
