@@ -18,16 +18,16 @@ collections:
       - {label: "Featured Image", name: "image", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "learning-spaces"
-        label: "Learning Spaces"
-        file: "_data/learning-spaces.json"
-        description: "Alternatve Learning Spaces"
-        fields:
-          - {label: "Name", name: "name", widget: "string"}
-          - {label: "Learning Approach", name: "approach", widget: "string"}
-          - {label: "City", name: "city", widget: "string"}
-          - {label: "State", name: "state", widget: "string"}
-          - {label: "Featured Image", name: "image", widget: "image"}
-          - {label: "Description", name: "description", widget: "markdown"}
-          - {label: "Website", name: "website", widget: "string"}
-          - {label: "Phone", name: "phone", widget: "string"}
-          - {label: "Email", name: "email", widget: "string"}
+    label: "Alternatve Learning Spaces"
+    file: "_data/learning-spaces.json"
+    description: "Alternatve Learning Spaces"
+    fields:
+       - {label: "Name", name: "name", widget: "string"}
+       - {label: "Learning Approach", name: "approach", widget: "string"}
+       - {label: "City", name: "city", widget: "string"}
+       - {label: "State", name: "state", widget: "string"}
+       - {label: "Featured Image", name: "image", widget: "image"}
+       - {label: "Description", name: "description", widget: "markdown"}
+       - {label: "Website", name: "website", widget: "string"}
+       - {label: "Phone", name: "phone", widget: "string"}
+       - {label: "Email", name: "email", widget: "string"}
