@@ -70,7 +70,7 @@ layout: starter
     var modal = document.querySelectorAll('.modal');
     var currentModalValue;
     var modalBtn = document.getElementsByClassName("modal-show");
-    var closeBtn = document.querySelector('.close-post');
+    var closeBtn = document.querySelectorAll('.close-post');
 
     function openModal(){
       modal[currentModalValue].style.display = "block";
@@ -90,11 +90,9 @@ layout: starter
 
     });
     }
-
-
-
-
-    closeBtn.addEventListener('click',closeModal);
+    for(var i=0;i<closeBtn.length;i++){
+    closeBtn[i].addEventListener('click',closeModal);
+    }
     <!-- Scroll Button -->
 
     $(document).ready(function(){
