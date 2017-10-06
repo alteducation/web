@@ -68,14 +68,18 @@ layout: starter
   <script>
     var $= jQuery.noConflict();
     var modal = document.querySelector('.modal');
+
     var modalBtn = document.getElementsByClassName("modal-show");
     var closeBtn = document.querySelector('.close-post');
     function openModal (){
       modal.style.display = "block";
       document.body.style.height ="100vh";
+      $('.modal').scrollTop(0);
+
     }
     function closeModal (){
       modal.style.display = "none";
+
     }
     for(var i=0;i<modalBtn.length;i++){
     modalBtn[i].addEventListener('click',openModal);
