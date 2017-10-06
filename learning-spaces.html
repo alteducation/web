@@ -10,7 +10,7 @@ layout: starter
   <!-- Thumbs -->
 
   <ul class="posts-box">
-    {% for spaces in site.data.learning-spaces %}
+    {% for spaces in site.data.learning-spaces.learning-spaces %}
     <li>
       <div class="card">
         <a class="button" href="modal-name">
@@ -29,7 +29,7 @@ layout: starter
           </div>
         </div>
         <div>
-          <a class="button modal-show">See Full Information</a>
+          <a data-modal="{{forloop.index}}" class="button modal-show">See Full Information</a>
         </div>
       </div>
       <div class="modal" id="modal-name" >
@@ -67,12 +67,21 @@ layout: starter
 
   <script>
     var $= jQuery.noConflict();
-    var modal = document.querySelector('.modal');
+    var modal = document.querySelectorAll('.modal');
 
     var modalBtn = document.getElementsByClassName("modal-show");
     var closeBtn = document.querySelector('.close-post');
+
     function openModal (){
-      modal.style.display = "block";
+
+
+
+         modal[i].style.display = "block";
+
+
+
+
+
       document.body.style.height ="100vh";
       $('.modal').scrollTop(0);
 
@@ -84,6 +93,10 @@ layout: starter
     for(var i=0;i<modalBtn.length;i++){
     modalBtn[i].addEventListener('click',openModal);
     }
+
+
+
+
     closeBtn.addEventListener('click',closeModal);
     <!-- Scroll Button -->
 
