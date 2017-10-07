@@ -24,6 +24,7 @@ collections:
           label: "Alternatve Learning Spaces"
           file: "_data/learning-spaces.json"
           description: "Alternatve Learning Spaces"
+          widget: list
           fields:
              - {label: "Name", name: "name", widget: "string"}
              - {label: "Learning Approach", name: "approach", widget: "string"}
