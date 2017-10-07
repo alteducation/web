@@ -38,3 +38,4 @@ collections:
                     - {label: "Website", name: "website", widget: "string"}
                     - {label: "Phone", name: "phone", widget: "string"}
                     - {label: "Email", name: "email", widget: "string"}
+                    - {label: "Address", name: "address", widget: "markdown"}
