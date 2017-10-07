@@ -432,7 +432,7 @@ Footer
 }
 .learning-spaces-filter{
   margin: 0% 3% 0 3%;
-  width: 40%;
+  width: 45%;
   height: 2em;
 
 }
@@ -944,6 +944,7 @@ Responsive media queries
     margin:-10% 0;
   }
 }
+
 @media (min-width: 991px){
   #contact{
     margin-top: 105px;
@@ -1283,6 +1284,13 @@ label {
   .modal-links {
     margin: 10% 0;
 
+  }
+  .learning-spaces-filter-parent{
+    flex-direction: column;
+  }
+  .learning-spaces-filter{
+    margin: 4% 3% 0 3%;
+    width: 90%;
   }
 }
 
