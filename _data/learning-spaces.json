@@ -1,7 +1,7 @@
 {
   "learning-spaces":[
     {"name": "Rishi Valley",
-      "image": "/img/learning-spaces/rishi-valley-1.jpg",
+      "image": "/img/rishi-valley-1.jpg",
       "approach":"Jiddu Krishnamurti School",
       "city":"Madanapalle",
       "state":"Andhra Pradesh",
@@ -13,7 +13,7 @@
 
     },
     {"name": "Aarambh",
-      "image": "/img/learning-spaces/aarambh-1.jpg",
+      "image": "/img/aarambh-1.jpg",
       "approach":"Rudolf Steiner School",
       "city":"Delhi",
       "state":"Delhi",
@@ -25,7 +25,7 @@
 
     },
     {"name": "Ukti",
-      "image": "/img/learning-spaces/ukti-1.jpg",
+      "image": "/img/ukti-1.jpg",
       "approach":"Rudolf Steiner School",
       "city":"Delhi",
       "state":"Delhi",
@@ -37,7 +37,7 @@
 
     },
     {"name": "Mirambika",
-      "image": "/img/learning-spaces/mirambika-free-progress-school-1.jpg",
+      "image": "/img/mirambika-free-progress-school-1.jpg",
       "approach":"Sri Aurobindo School",
       "city":"Delhi",
       "state":"Delhi",
@@ -49,7 +49,7 @@
 
     },
     {"name": "Arivu School",
-      "image": "/img/learning-spaces/arivu-1.jpg",
+      "image": "/img/arivu-1.jpg",
       "approach":"Thematic Study",
       "city":"Mysore",
       "state":"Karnataka",
@@ -61,7 +61,7 @@
 
     },
     {"name": "Aurinko",
-      "image": "/img/learning-spaces/aurinko-1.jpg",
+      "image": "/img/aurinko-1.jpg",
       "approach":"Aurinko Cirriculum",
       "city":"Bangalore",
       "state":"Karnataka",
@@ -73,7 +73,7 @@
 
     },
     {"name": "BeMe",
-      "image": "/img/learning-spaces/be-me-1.jpg",
+      "image": "/img/be-me-1.jpg",
       "approach":"Democratic School",
       "city":"Bangalore",
       "state":"Karnataka",
@@ -85,7 +85,7 @@
 
     },
     {"name": "Bhavya",
-      "image": "/img/learning-spaces/bhavya-1.jpg",
+      "image": "/img/bhavya-1.jpg",
       "approach":"Learning Space",
       "city":"Bangalore",
       "state":"Karnataka",
@@ -97,7 +97,7 @@
 
     },
     {"name": "Centre For Learning",
-      "image": "/img/learning-spaces/cfl-banglore-1.jpg",
+      "image": "/img/cfl-banglore-1.jpg",
       "approach":"Jiddu Krishnamurti Inspired",
       "city":"Bangalore",
       "state":"Karnataka",
@@ -109,7 +109,7 @@
 
     },
     {"name": "Poorna",
-      "image": "/img/learning-spaces/poorna-learning-centre-1.jpg",
+      "image": "/img/poorna-learning-centre-1.jpg",
       "approach":"Others",
       "city":"Bangalore",
       "state":"Karnataka",
@@ -121,7 +121,7 @@
 
     },
     {"name": "Abheek",
-      "image": "/img/learning-spaces/abheek-1.jpg",
+      "image": "/img/abheek-1.jpg",
       "approach":"Exploratory Learning",
       "city":"Bangalore",
       "state":"Karnataka",
@@ -133,7 +133,7 @@
 
     },
     {"name": "Edha Education",
-      "image": "/img/learning-spaces/edha-education-1.jpg",
+      "image": "/img/edha-education-1.jpg",
       "approach":"Others",
       "city":"Gurgaon",
       "state":"Haryana",
@@ -145,7 +145,7 @@
 
     },
     {"name": "La Wisdom School",
-      "image": "/img/learning-spaces/la-wisdom-1.jpg",
+      "image": "/img/la-wisdom-1.jpg",
       "approach":"Montessori",
       "city":"Bangalore",
       "state":"Karnataka",
@@ -157,7 +157,7 @@
 
     },
     {"name": "Inbloom",
-      "image": "/img/learning-spaces/inbloom-1.jpg",
+      "image": "/img/inbloom-1.jpg",
       "approach":"Rudolf Steiner & Montessori School",
       "city":"Bangalore",
       "state":"Karnataka",
