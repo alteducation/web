@@ -43,6 +43,7 @@ h1, h3, h4, h5, h6{
 
 a{
     color: #5fcf80;
+    cursor: pointer;
 }
 a:hover, a:focus{
     color: #5fcf80;
@@ -425,6 +426,16 @@ Footer
 /*---------------------*/
 
 /* Cards */
+.learning-spaces-filter-parent{
+  display: flex;
+  margin: 10% 0 0 0;
+}
+.learning-spaces-filter{
+  margin: 0% 3% 0 3%;
+  width: 40%;
+  height: 2em;
+
+}
 .posts-box {
 /*  max-width: 1024px; */
   margin: 0 auto;
