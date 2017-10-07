@@ -6,23 +6,52 @@ layout: starter
 <a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
 
 
+<!-- Filter Section -->
+<div class="wrapper">
+<div class="learning-spaces-filter-parent">
 
+
+<select class="learning-spaces-filter" id="state" name="state" onchange="getSelectValue();">
+  <option value="All States">All States</option>
+  <option value="Andhra Pradesh">Andhra Pradesh</option>
+  <option value="Delhi">Delhi</option>
+  <option value="Goa">Goa</option>
+  <option value="Haryana">Haryana</option>
+  <option value="Karnataka">Karnataka</option>
+  <option value="Kerala">Kerala</option>
+
+  <option value="Andhra Pradesh">Andhra Pradesh</option>
+  <option value="Andhra Pradesh">Andhra Pradesh</option>
+
+</select>
+
+<select class="learning-spaces-filter" id="approach" name="approach">
+  <option value="All Methodologies">All Methodologies</option>
+  <option value="Krishnamurti">Krishnamurti</option>
+  <option value="Open Learning Spaces">Open Learning Spaces</option>
+  <option value="Montessori">Montessori</option>
+  <option value="Waldorf">Waldorf</option>
+  <option value="Others">Others</option>
+</select>
+</div>
+</div>
   <!-- Thumbs -->
 
   <ul class="posts-box">
     {% for spaces in site.data.learning-spaces.learning-spaces %}
+
     <li>
       <div class="card">
-        <a class="button" href="modal-name">
+
           <img src="{{spaces.image}}" alt="">
-        </a>
+
         <div class="card-info">
           <h3>{{spaces.name}}</h3>
           <div class="card-info-inner">
           <h4>{{spaces.approach}}</h4>
           <h4>City: {{spaces.city}}</h4>
-          <h4>State: {{spaces.state}}</h4>
-          <p>{{spaces.description | truncatewords:25}}</p>
+          <h4 class="space-state">State: {{spaces.state}}</h4>
+          <p>{{spaces.description | truncate:100 }}</p>
           <a href="http://{{spaces.website}}"><i class="fa fa-globe" aria-hidden="true"></i>&nbsp&nbsp{{spaces.website | truncate:25}}</a>
           <a href="tel:{{spaces.phone}}"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp&nbsp{{spaces.phone}}</a>
           <a href="mailto:{{spaces.email}}"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp&nbsp{{spaces.email}}</a>
@@ -67,6 +96,8 @@ layout: starter
 
   <script>
     var $= jQuery.noConflict();
+
+    <!-- Modal Box -->
     var modal = document.querySelectorAll('.modal');
     var currentModalValue;
     var modalBtn = document.getElementsByClassName("modal-show");
@@ -109,5 +140,11 @@ layout: starter
       });
     });
 
+  <!-- Dropdown Filter -->
+   function getSelectValue()
+    {
+      var selectedValue = document.getElementById("state").value;
+      console.log(selectedValue);
+    }
 
   </script>
