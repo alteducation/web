@@ -3,7 +3,7 @@ layout: fullpost
 title: Is Home Education An Option For Me
 excerpt: To love one's children is to be in complete communication with them it is to see that they have the right kind of education that will help them to be sensitive, intelligent and integrated. - J Krishnamurti
 author: Clive
-image: /img/blog/homeschooling-for-me.jpg
+image: /img/homeschooling-for-me.jpg
 ---
 There are many parents who feel a deep dissatisfaction with the schooling that their children are receiving. Some wonder why their child has such a low level of achievement, and are concerned when they see various learning difficulties developing. Others, when they see children exhibiting strong emotional and behavioral problems, suspect the school environment is seriously damaging their child's well-being.
 

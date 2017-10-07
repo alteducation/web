@@ -3,7 +3,7 @@ layout: fullpost
 title: David Horsburgh Interviewed
 excerpt: An interview with David Horsburgh by Rosalind Wilson. First published in India International Quarterly 10 (1 March 1983)
 author: David Horsburgh
-image: /img/blog/horsbrough.jpg
+image: /img/horsbrough.jpg
 ---
 
 

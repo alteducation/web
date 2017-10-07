@@ -7,7 +7,7 @@ excerpt: >-
   sensitivity to be preserved, we do need to provide an opportunity to the child
   where these things are not snubbed before they blossom" - Vineeta
 date: 2015-10-16T23:41:39+05:30
-image: /img/blog/let-kids-learn-their-way.jpg
+image: /img/let-kids-learn-their-way.jpg
 ---
 Academics is only a small part of growing up and learning. Now, what kind of academic work you are going to do with your children depends on your belief system. But sadly, many times, we deal with the children in a particular way that will lead them to grow into a particular kind of individuals which is quite different from, in fact most of the times, exactly opposite to, what we actually want them to be. A few examples here will help you see what I am trying to say.
 
@@ -29,4 +29,3 @@ It really helps if we don’t take charge whenever the child shows slightest int
 When my children were small, there were times when we didn’t do anything academic for months and then whenever they got involved in certain things, it occupied them completely, while playing, eating, sleeping, all the time. We were always there to provide resources and help them pursue their ideas. Sometimes, their projects would be academic, sometimes based on  construction of one kind or another. We learned most of our maths playing cricket, keeping scores, averages, percentages and other kind of data involved at their own initiative. When I try to bring in any aspect, I do so with an understanding that it might or might not be accepted. If they reject it, I accept it. If for some reason, I don’t accept their rejection, I learn it the hard way that I should have. When they accept my ideas, they pursue them and take it in the direction they would like to. We would read the books when they wanted to, we would do sky watching with our telescope. One thing that is good with learning at home is that since we don’t have to spend on the fees and other things, we can invest in some other things that would be of greater use. When they were small, I used to display their work and stories. By the time they were five or so they were already reading and they started writing by the time they were seven or so. Writing is always restricted to the very minimum initially, till they are comfortable with it and their muscles are well developed to take the strain of writing.
 
 Once their initiative, interest and curiosity have been preserved, there is no stopping them from doing anything they get interested in. They take full responsibility for themselves.
-

@@ -3,7 +3,7 @@ layout: fullpost
 title: Dont Take Bullying Anymore
 excerpt: When he gets hit in school by older children who bully everyone around, and I take it up, I am told that it's all a part of growing up and that he will learn how to deal with aggressive people in life! - Priya
 author: Priya
-image: /img/blog/bullying-no-more.jpg
+image: /img/bullying-no-more.jpg
 ---
 
 

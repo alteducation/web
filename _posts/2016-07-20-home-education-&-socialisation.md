@@ -3,7 +3,7 @@ layout: fullpost
 title: Home Education & Socialisation
 excerpt: If she grows with full freedom and unconditional acceptance, she is going to grow into a balanced and mature human being who can form relationships very comfortably." - Vineeta
 author: Vineeta
-image: /img/blog/socialising.jpg
+image: /img/socialising.jpg
 ---
 Normally parents worry about the socialization of the child with his/her own age group. In fact it lends the child with an opportunity to interact with the people of all ages. They play with the children of their age group in the evenings and also interact with the people of all age groups with equal confidence and surety. They naturally move into this process of socialization when they are ready. If we look at life, we see that dividing children into different age groups is a very unnatural situation and not an ideal one.
 

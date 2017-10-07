@@ -3,7 +3,7 @@ layout: fullpost
 title: Interview with Neetu Singh
 excerpt: Neetu Singh is a Teacher and Program Coordinator at the Study Centre of the Valley School, A school established in 1978 based on the teachings of the eminent philosopher and thinker, Jiddu Krishnamurti
 author: Neethu Singh
-image: /img/blog/interview-neethu-singh.jpg
+image: /img/interview-neethu-singh.jpg
 ---
 PWL:   I understand that there was a year-long search for the land where the school now resides. Krishnamurti knew that the land should be about 100 acres. When he walked through the wilderness site that included streams, a lake, woodland and meadows, he knew the school had found its home.  What is it about this site that supports the vision of the Valley School?
 

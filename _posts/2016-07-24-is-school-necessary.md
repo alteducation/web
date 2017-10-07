@@ -3,7 +3,7 @@ layout: fullpost
 title: Is School Necessary
 excerpt: He asked, for the nth time, why he can't stay at home and learn whatever he has to. Why school? - Piyasen
 author: Priyasen
-image: /img/blog/school-necessary.jpg
+image: /img/school-necessary.jpg
 ---
 I just sent my son off to school. He wasn't in a great frame of mind. He asked, for the nth time, why he can't stay at home and learn whatever he has to. Why school. He's gone with bent head, miserable.But today, I made him a promise. That he, and I, will be out of this senseless existence in six months time. I did a mental checklist. There are some points that are always brought up -- in my mind and by people -- when I think of pulling him out of the system.
 
