@@ -40,7 +40,7 @@ layout: starter
   <ul class="posts-box">
     {% for spaces in site.data.learning-spaces.learning-spaces %}
 
-    <li>
+    <li class="card-parent">
       <div class="card">
 
           <img src="{{spaces.image}}" alt="">
@@ -150,15 +150,14 @@ layout: starter
 
       // show all the cards if "Show All" is selected
       if(filter == "All States") {
-
-        $('.card').show();
+        $('.card-parent').show();
         return;
       }
 
       // use $.each to look at the title/h4 element in each card
       // if it matches the filter value selected show it else hide it
       $.each($('.space-state'), function(i, el) {
-        var card = $(el).closest('.card');
+        var card = $(el).closest('.card-parent');
         $(el).text().includes(filter) ? card.show() : card.hide();
       });
     }
