@@ -431,12 +431,13 @@ Footer
   margin: 10% 0 0 0;
 }
 .learning-spaces-filter{
-  margin: 0% 3% 0 3%;
+  margin: 0 4.7% 0 4.7%;
   width: 45%;
   height: 2em;
   height: 2.5em;
   font-size: 16px;
   padding: 0 25px;
+  background-color: ghostwhite;
 
 }
 .posts-box {
@@ -948,9 +949,10 @@ Responsive media queries
   }
   .learning-spaces-filter-parent{
     flex-direction: column;
+    margin-top: 15%;
   }
   .learning-spaces-filter{
-    margin: 4% 3% 0 3%;
+    margin: 1.5% 4.7% 0 4.7%;
     width: 90%;
   }
 }

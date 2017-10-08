@@ -11,7 +11,7 @@ layout: starter
 <div class="learning-spaces-filter-parent">
 
 
-<select class="learning-spaces-filter" id="state" name="state" onchange="getSelectValue();">
+<select class="learning-spaces-filter" id="state" name="state" >
   <option value="All States">All States</option>
   <option value="Andhra Pradesh">Andhra Pradesh</option>
   <option value="Delhi">Delhi</option>
@@ -142,13 +142,17 @@ layout: starter
 
     <!-- Dropdown Filter -->
     <!-- State Selector -->
+
     var states = document.querySelector('#state');
     states.addEventListener('change', filterCards);
 
     function filterCards() {
-      var filter = $(this).val();
+      var filter = this.value;
+
+
 
       // show all the cards if "Show All" is selected
+
       if(filter == "All States") {
         $('.card-parent').show();
         return;
@@ -156,12 +160,12 @@ layout: starter
 
       // use $.each to look at the title/h4 element in each card
       // if it matches the filter value selected show it else hide it
+
       $.each($('.space-state'), function(i, el) {
         var card = $(el).closest('.card-parent');
         $(el).text().includes(filter) ? card.show() : card.hide();
       });
     }
-
-
+  
 
   </script>
