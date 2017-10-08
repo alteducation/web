@@ -3,12 +3,20 @@ html, body {
   overflow-x: hidden;
 }
 body {
+
   font-size: 15px;
   line-height: 1.52;
   color: #717f86;
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
+}
+.layout-container{
+  position: relative;
+  min-height: 100vh;
+}
+.layout-content{
+  padding-bottom: 314px;
 }
 ol, ul {
   list-style: none;
@@ -293,7 +301,7 @@ Extra Top Margin
 Footer
 ************************************/
 .footer {
-  position: relative;
+  position: absolute;
   height: auto;
   bottom: 0;
   width: 100%;

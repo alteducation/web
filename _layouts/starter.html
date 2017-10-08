@@ -23,18 +23,23 @@
 
 
   <!-- Navbar-->
+  <div class="layout-container">
   <header>
      {% include nav.html %}
   </header>
   <!--  Navbar -->
 
+  <div class="layout-content">
    <!--  Main Content -->
     {{content}}
    <!--  Main Content -->
+  </div>
 
     <!--Footer-->
     {% include footer.html%}
     <!--/ Footer-->
+
+  </div>
 
   <!-- Scripts -->
   {% include scripts.html%}
