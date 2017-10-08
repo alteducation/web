@@ -293,6 +293,9 @@ Extra Top Margin
 .padding80{
   padding-top: 80px;
 }
+.padding50{
+  padding-top: 50px;
+}
 .marginmoreless{
   margin-top:40px;
 }
@@ -436,7 +439,7 @@ Footer
 /* Cards */
 .learning-spaces-filter-parent{
   display: flex;
-  margin: 10% 0 0 0;
+
 }
 .learning-spaces-filter{
   margin: 0 4.7% 0 4.7%;
@@ -957,7 +960,7 @@ Responsive media queries
   }
   .learning-spaces-filter-parent{
     flex-direction: column;
-    margin-top: 15%;
+
   }
   .learning-spaces-filter{
     margin: 1.5% 4.7% 0 4.7%;
@@ -1039,7 +1042,7 @@ Responsive media queries
   #main-cover p{
     margin: 2% 5%;
 
-    font-size: 16px;
+    font-size: 12px;
     text-align: center;
     letter-spacing: 1px;
     font-family: 'Open Sans', sans-serif;
