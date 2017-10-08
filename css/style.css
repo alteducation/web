@@ -59,10 +59,7 @@ a:hover, a:focus{
 /***********************************
 Navigation bar
 ************************************/
-header:after{
-  content: "";
-  display: inline-block;
-}
+
 .navbar-default .navbar-brand {
   color: #5FCF80;
 }
