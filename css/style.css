@@ -646,6 +646,9 @@ Footer
     width: 100%;
     min-width: auto;
   }
+  #learning-desc-para{
+    font-size: 14px;
+  }
 }
 
 
