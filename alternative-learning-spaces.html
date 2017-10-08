@@ -26,7 +26,7 @@ layout: starter
 </select>
 
 <select class="learning-spaces-filter" id="approach" name="approach">
-  <option value="All Methodologies">All Methodologies</option>
+  <option value="All Methodologies">All Learning Methods</option>
   <option value="Krishnamurti">Krishnamurti</option>
   <option value="Open Learning Spaces">Open Learning Spaces</option>
   <option value="Montessori">Montessori</option>
@@ -48,7 +48,7 @@ layout: starter
         <div class="card-info">
           <h3>{{spaces.name}}</h3>
           <div class="card-info-inner">
-          <h4>{{spaces.approach}}</h4>
+          <h4 class="space-approach">{{spaces.approach}}</h4>
           <h4>City: {{spaces.city}}</h4>
           <h4 class="space-state">State: {{spaces.state}}</h4>
           <p>{{spaces.description | truncate:100 }}</p>
@@ -140,6 +140,28 @@ layout: starter
       });
     });
 
+    <!-- Dropdown Filter -->
+    <!-- State Selector -->
+    var states = document.querySelector('#state');
+    states.addEventListener('change', filterCards);
+
+    function filterCards() {
+      var filter = $(this).val();
+
+      // show all the cards if "Show All" is selected
+      if(filter == "All States") {
+
+        $('.card').show();
+        return;
+      }
+
+      // use $.each to look at the title/h4 element in each card
+      // if it matches the filter value selected show it else hide it
+      $.each($('.space-state'), function(i, el) {
+        var card = $(el).closest('.card');
+        $(el).text().includes(filter) ? card.show() : card.hide();
+      });
+    }
 
 
 
