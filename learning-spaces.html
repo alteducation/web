@@ -10,9 +10,9 @@ layout: starter
     <div class="header-section padding50 text-center">
       <hr class="bottom-line">
       <p id="learning-desc-para" class="extra-padding">Although the term "Alternative" is not easy to define and many Schools merely use it for Marketing. We have Prepared this list as a Starting Point for your Search. So Use Your Best Judgement While Going Throught The List. People have different values and priorities & Everyone Views Education Differently, So We Intend To Keep this list as Open as Possible. To Stay Unbiased We Dont Accept Money From Schools Or Anyone Else. If You have suggestions or additions to the site,  <a href="{{site.baseurl}}/get-involved.html"> Join  & Get Involved :)</a></p>
-      <hr class="bottom-line">
-    </div>
     <hr class="bottom-line">
+    </div>
+
   </div>
 </div>
 <!-- Description -->
@@ -48,7 +48,7 @@ layout: starter
   <option value="All Learning Methods">All Learning Methods</option>
   <option value="Open Learning Space">Open Learning Spaces</option>
   <option value="Democratic">Democratic Schools</option>
-  <option value="Waldorf">Waldorf Education</option>
+  <option value="Waldorf">Waldorf</option>
   <option value="Krishnamurti">Jiddu Krishnamurti</option>
   <option value="Montessori">Montessori Schools</option>
   <option value="Others">Others</option>
@@ -162,31 +162,53 @@ layout: starter
     });
 
     <!-- Dropdown Filter -->
-    <!-- State Selector -->
 
-    var states = document.querySelector('#state');
-    states.addEventListener('change', filterCards);
 
     function filterCards() {
-      var filter = this.value;
+
+      var card = document.getElementsByClassName('card-parent');
+      var statenode = document.getElementsByClassName('space-state');
+      var titleState = Array.from(statenode);
+      var approachnode = document.getElementsByClassName('space-approach');
+      var titleApproach = Array.from(approachnode);
+      var filterState = states.value;
+      var filterApproach = approach.value;
 
 
-
-      // show all the cards if "Show All" is selected
-
-      if(filter == "All States") {
+      if(filterState == "All States" && filterApproach == "All Learning Methods"){
         $('.card-parent').show();
         return;
       }
+      else if (filterState == "All States" && filterApproach !== "All Learning Methods"){
+        for (i = 0; i < card.length; i++) {
+          titleApproach[i].innerText.includes(filterApproach) ? card[i].style.display = "inline-block" : card[i].style.display = "none";
+          }
 
-      // use $.each to look at the title/h4 element in each card
-      // if it matches the filter value selected show it else hide it
+        return;
+      }
+      else if (filterApproach == "All Learning Methods" && filterState !== "All States"){
+        for (i = 0; i < card.length; i++) {
+          titleState[i].innerText.includes(filterState) ? card[i].style.display = "inline-block" : card[i].style.display = "none";
+          }
 
-      $.each($('.space-state'), function(i, el) {
-        var card = $(el).closest('.card-parent');
-        $(el).text().includes(filter) ? card.show() : card.hide();
-      });
+        return;
+      }
+      else{
+        for (i = 0; i < card.length; i++) {
+          titleState[i].innerText.includes(filterState)  && titleApproach[i].innerText.includes(filterApproach) ? card[i].style.display = "inline-block" : card[i].style.display = "none";
+          }
+
+        return;
+      }
     }
+
+  var states = document.getElementById('state');
+  var approach = document.getElementById('approach');
+
+  [states,approach].forEach(function(item){
+    item.addEventListener('change', filterCards);
+  });
+
 
 
   </script>
