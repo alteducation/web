@@ -1,6 +1,7 @@
 markdown: kramdown
 url: https://www.alternativeeducation.in
 exclude: ['README.md']
+include: [redirects]
 paginate_path: "blog/page:num"
 paginate: 4
-plugins_dir: [jekyll-paginate, jekyll-sitemap]
+plugins_dir: [jekyll-paginate, jekyll-sitemap, jekyll-redirect-from]

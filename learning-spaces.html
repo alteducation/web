@@ -9,7 +9,7 @@ layout: starter
   <div class="row">
     <div class="header-section padding50 text-center">
       <hr class="bottom-line">
-      <p id="learning-desc-para" class="extra-padding">Although the term "Alternative" is not easy to define and many Schools merely use it for Marketing. We have Prepared this list as a Starting Point for your Search. So Use Your Best Judgement While Going Throught The List. People have different values and priorities & Everyone Views Education Differently, So We Intend To Keep this list as Open as Possible. To Stay Unbiased We Dont Accept Money From Schools Or Anyone Else. If You have suggestions or additions to the site,  <a href="{{site.baseurl}}/get-involved.html"> Join  & Get Involved :)</a></p>
+      <p id="learning-desc-para" class="extra-padding">Although the term "Alternative" is not easy to define and many Schools merely use it for Marketing. We have Prepared this list as a Starting Point for your Search. People have different values and priorities & Everyone Views Education Differently, So We Intend To Keep this list as Open as Possible. Please Use Your Best Judgement While Going Throught the List. To Stay Unbiased We Dont Accept Money From Schools Or Anyone Else. If You have suggestions or additions to the site,  <a href="{{site.baseurl}}/get-involved.html"> Join  & Get Involved :)</a></p>
     <hr class="bottom-line">
     </div>
 
@@ -56,7 +56,6 @@ layout: starter
 </div>
 </div>
   <!-- Thumbs -->
-
   <ul class="posts-box">
     {% for spaces in site.data.learning-spaces.learning-spaces %}
 
@@ -68,9 +67,9 @@ layout: starter
         <div class="card-info">
           <h3>{{spaces.name}}</h3>
           <div class="card-info-inner">
-          <h4 class="space-approach">{{spaces.approach}}</h4>
+          <h4 class="card-approach">{{spaces.approach}}</h4>
           <h4>City: {{spaces.city}}</h4>
-          <h4 class="space-state">State: {{spaces.state}}</h4>
+          <h4 class="card-state">State: {{spaces.state}}</h4>
           <p>{{spaces.description | truncate:100 }}</p>
           <a href="http://{{spaces.website}}"><i class="fa fa-globe" aria-hidden="true"></i>&nbsp&nbsp{{spaces.website | truncate:25}}</a>
           <a href="tel:{{spaces.phone}}"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp&nbsp{{spaces.phone}}</a>
@@ -167,35 +166,31 @@ layout: starter
     function filterCards() {
 
       var card = document.getElementsByClassName('card-parent');
-      var statenode = document.getElementsByClassName('space-state');
-      var titleState = Array.from(statenode);
-      var approachnode = document.getElementsByClassName('space-approach');
-      var titleApproach = Array.from(approachnode);
-      var filterState = states.value;
-      var filterApproach = approach.value;
+      var cardState = Array.from(document.getElementsByClassName("card-state"));
+      var cardApproach = Array.from(document.getElementsByClassName("card-approach"));
 
 
-      if(filterState == "All States" && filterApproach == "All Learning Methods"){
+      if(states.value == "All States" && approach.value == "All Learning Methods"){
         $('.card-parent').show();
         return;
       }
-      else if (filterState == "All States" && filterApproach !== "All Learning Methods"){
+      else if (states.value == "All States" && approach.value !== "All Learning Methods"){
         for (i = 0; i < card.length; i++) {
-          titleApproach[i].innerText.includes(filterApproach) ? card[i].style.display = "inline-block" : card[i].style.display = "none";
+          cardApproach[i].textContent.includes(approach.value) ? card[i].style.display = "inline-block" : card[i].style.display = "none";
           }
 
         return;
       }
-      else if (filterApproach == "All Learning Methods" && filterState !== "All States"){
+      else if (approach.value == "All Learning Methods" && states.value !== "All States"){
         for (i = 0; i < card.length; i++) {
-          titleState[i].innerText.includes(filterState) ? card[i].style.display = "inline-block" : card[i].style.display = "none";
+          cardState[i].textContent.includes(states.value) ? card[i].style.display = "inline-block" : card[i].style.display = "none";
           }
 
         return;
       }
       else{
         for (i = 0; i < card.length; i++) {
-          titleState[i].innerText.includes(filterState)  && titleApproach[i].innerText.includes(filterApproach) ? card[i].style.display = "inline-block" : card[i].style.display = "none";
+          cardState[i].textContent.includes(states.value)  && cardApproach[i].textContent.includes(approach.value) ? card[i].style.display = "inline-block" : card[i].style.display = "none";
           }
 
         return;
