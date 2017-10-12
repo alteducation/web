@@ -101,3 +101,15 @@ keywords: Alternative Education, Home Schooling, How to Home School, Alternative
       </div>
     </section>
     <!--/ Categories-->
+    <!--/ Netlify Identity Login Redirect-->
+    <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+    </script>
