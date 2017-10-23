@@ -1245,7 +1245,13 @@ Responsive media queries
   }
 
 }
+/* Mobile Screen */
+@media only screen and (max-width: 480px) and (min-width: 10px){
+  .desc-text h2{
+    display: none;
 
+  }
+}
 
 
 /* Large Devices, Wide Screens */
