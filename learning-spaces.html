@@ -167,7 +167,9 @@ title: Alternative learning Spaces | Alternative Education India
 
       var card = document.getElementsByClassName('card-parent');
       var cardState = Array.from(document.getElementsByClassName("card-state"));
+      var cardStateContent =cardState.map(e => e.textContent);
       var cardApproach = Array.from(document.getElementsByClassName("card-approach"));
+      var cardApproachContent = cardApproach.map(e => e.textContent);
 
 
       if(states.value == "All States" && approach.value == "All Learning Methods"){
@@ -175,22 +177,22 @@ title: Alternative learning Spaces | Alternative Education India
         return;
       }
       else if (states.value == "All States" && approach.value !== "All Learning Methods"){
-        for (i = 0; i < card.length; i++) {
-          cardApproach[i].textContent.includes(approach.value) ? card[i].style.display = "inline-block" : card[i].style.display = "none";
-          }
+        cardApproachContent.forEach((e,i) => {
+          e.includes(approach.value) ? card[i].style.display="inline-block" : card[i].style.display="none";
+        });
 
         return;
       }
       else if (approach.value == "All Learning Methods" && states.value !== "All States"){
-        for (i = 0; i < card.length; i++) {
-          cardState[i].textContent.includes(states.value) ? card[i].style.display = "inline-block" : card[i].style.display = "none";
-          }
+        cardStateContent.forEach((e,i) => {
+          e.includes(states.value) ? card[i].style.display="inline-block" : card[i].style.display="none";
+          });
 
         return;
       }
       else{
         for (i = 0; i < card.length; i++) {
-          cardState[i].textContent.includes(states.value)  && cardApproach[i].textContent.includes(approach.value) ? card[i].style.display = "inline-block" : card[i].style.display = "none";
+          cardStateContent[i].includes(states.value)  && cardApproachContent[i].includes(approach.value) ? card[i].style.display = "inline-block" : card[i].style.display = "none";
           }
 
         return;
@@ -200,9 +202,7 @@ title: Alternative learning Spaces | Alternative Education India
   var states = document.getElementById('state');
   var approach = document.getElementById('approach');
 
-  [states,approach].forEach(function(item){
-    item.addEventListener('change', filterCards);
-  });
+  [states,approach].forEach((item) => item.addEventListener('change', filterCards));
 
 
 
