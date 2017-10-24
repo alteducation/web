@@ -313,8 +313,11 @@ background-color: #fff;
   cursor: pointer;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
 }
+
 .card-item img{
   margin: 3%;
+  height: 48px;
+  width: 48px;
 }
 .card-inner{
   display: flex;
