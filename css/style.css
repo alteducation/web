@@ -1245,6 +1245,14 @@ Responsive media queries
 
 }
 /* Mobile Screen */
+@media only screen and (max-width : 400px){
+  .homepage-blog h2{
+    font-size: 24px;
+  }
+  .homepage-blog-para{
+    font-size: 13px !important;
+  }
+}
 @media only screen and (max-width: 480px) and (min-width: 10px){
   .desc-text h2{
     display: none;
