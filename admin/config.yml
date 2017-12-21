@@ -19,7 +19,7 @@ collections:
       - {label: "Featured Image", name: "image", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "data-files"
-    label: "Data Files"
+    label: "Pages"
     files:
         - name: "learning-spaces"
           label: "Alternatve Learning Spaces"
