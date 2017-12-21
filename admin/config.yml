@@ -25,6 +25,8 @@ collections:
           label: "Alternatve Learning Spaces"
           file: "_data/learning-spaces.json"
           description: "Alternatve Learning Spaces"
+          editor:
+            preview: false
           fields:
               - name: "learning-spaces"
                 label: "Alternatve Learning Spaces"
