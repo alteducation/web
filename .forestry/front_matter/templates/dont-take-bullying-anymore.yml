@@ -7,7 +7,7 @@ fields:
   label: Layout
   type: text
   hidden: false
-  default: blog
+  default: fullpost
 - name: title
   label: Title
   type: text
