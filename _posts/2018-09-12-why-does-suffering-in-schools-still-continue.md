@@ -6,7 +6,7 @@ excerpt: 'We see and hear so many students committing suicides due to the pressu
   of the system, and yet we continue with the system as if the students suffering
   doesn’t matter at all. '
 author: 'Vijaykumar Kartha '
-image: ''
+image: "/uploads/girl-2786277_1280.jpg"
 
 ---
 Do you know how this system works so effectively and has been in force for almost a century or more now? It has killed millions of unsuspecting students yet the system continues its march and there are a very few who have been able to question it or break it down in order to create a new culture. We see and hear so many students committing suicides due to the pressures of the system, and yet we continue with the system as if the students suffering doesn’t matter at all. 
