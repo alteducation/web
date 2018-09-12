@@ -1,13 +1,13 @@
 ---
-label: Dont Take Bullying Anymore
-hide_body: 
-is_partial: 
+label: Blog
+hide_body: false
+is_partial: false
 fields:
 - name: layout
   label: Layout
   type: text
   hidden: false
-  default: ''
+  default: blog
 - name: title
   label: Title
   type: text
@@ -26,5 +26,5 @@ fields:
 - name: image
   label: Image
   type: text
-  hidden: false
+  hidden: true
   default: ''
