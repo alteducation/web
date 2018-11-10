@@ -33,7 +33,7 @@ For our children, Learning is 'work'. Seth Godin once said " The biggest crime s
 
 We have all heard this in our schools, "Do this or we’ll laugh at you, expel you, tell your parents, make you sit in the corner. Do this or you will get a bad grade, be suspended, never amount to anything. Do this or you are in trouble."
 
-This fear that schools use as a tool to administer their students is toxic. Fear is easy to awake, easy to maintain, but ultimately toxic. It kills the spirit of the human mind. Passion, on the other hand can overcome fear, the fear of losing, of failing, of being ridiculed. At the very instant we take away freedom and assume control over a child's learning. Playfulness and passion cease to exist. In a caged mind, there is no space to explore or learn. Playfulness needs autonomy and freedom to thrive.
+This fear that schools use as a tool to administer their students is toxic. Fear is easy to awake, easy to maintain, but ultimately toxic. It kills the spirit of the human mind. Passion, on the other hand can overcome fear, the fear of losing, of failing, of being ridiculed. At the very instant we take away freedom and assume control over a child's learning, playfulness and passion cease to exist. In a caged mind, there is no space to explore or learn. The human spirit needs autonomy and freedom to thrive.
 
 Something that I have started doing recently is to read Books on 'Education', having gone through years of schooling reading a book was extremely hard for me. I hated books, books were something you had to endure to be let free to do the things you loved. School had successfully taught me to hate books. Only slowly have I began to appreciate books and started reading them for the fun of learning new things.
 
