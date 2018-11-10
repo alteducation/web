@@ -69,6 +69,8 @@ I don't want to end this without giving solutions as to how we can create condit
 
 It comes from the supermarket, they said. Well, were they really wrong?.
 
+Once, I was walking through a village in Rajashtan, There are no 'walls' in that village. the kids were free to roam around. They went anywhere they pleased.  Kids had access to everything, they could go anywhere, see anything and do anything. But here was one place in the Village that had 'Walls'. A place that stood in contrast to it all,  the Village 'School'.
+
 It will be a long time before we will be able to open up our cities for children to explore and learn, Currently I'm working on a piece that explores possible solutions to address this very issue, Once done I will \[link\] it here
 
 Till then I will leave you with this quote from  Rachel Carson.
