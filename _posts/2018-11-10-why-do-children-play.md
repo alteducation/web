@@ -81,7 +81,7 @@ Till then I will leave you with this quote from  Rachel Carson.
   email: alwingeorge2008@gmail.com
 
   
-Refernces Further reading: 
+Refernces & Further reading: 
 
 [- The rule of expectations](http://westsidetoastmasters.com/resources/laws_persuasion/chap10.html)
 
