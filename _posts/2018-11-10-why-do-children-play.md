@@ -67,7 +67,7 @@ On my way back in the train, A family was traveling in the same compartment as m
 
 I don't want to end this without giving solutions as to how we can create conditions for children to thrive, as opposed to village life modern space often don't have favorable conditions for children to learn freely through observation and playfulness. Much of what happens in cities are hidden from children. children grow up seeing 'products' rarely do they see the 'process' of how things come about. There was this interesting survey in which children from the U.S. were asked, Where milk comes from?
 
-It comes from the supermarket, the said. Well, were they really wrong?.
+It comes from the supermarket, they said. Well, were they really wrong?.
 
 It will be a long time before we will be able to open up our cities for children to explore and learn, Currently I'm working on a piece that explores possible solutions to address this very issue, Once done I will \[link\] it here
 
