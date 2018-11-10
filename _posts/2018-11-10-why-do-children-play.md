@@ -59,7 +59,7 @@ The day that I left for Chattisgarh I was in Bangalore and I was having dinner i
 
 The rule of expectations states that "If I accept you as you are. I will make you worse; however if I treat you as though you are what you are capable of becoming, I can help you become that. But what happens when we constantly convey it to children that they are incapable, how would they turn out?
 
-In the Village I stayed, there is a steep rock that stands out majestically across the paddy fields, few children were playing around me as I was looking at it with awe. I asked a kid whether there is a trail to go up to the base. The kid, Nikhil who was around 12 told there isn't any but that he would come with me, so we went. Halfway through we reached the end of the village trail. He then took the lead and navigated through the jungle. He started talking about the flora and fauna of the jungle, I was mesmerized by the amount of knowledge he has. 
+In the Village I stayed, there is a steep rock that stands out majestically across the paddy fields, few children were playing around me as I was looking at it with awe. I asked a kid whether there is a trail to go up to the base. The kid, Nikhil who was around 12 told there isn't any but that he would come with me, so we went. Halfway through we reached the end of the village trail. He then took the lead and navigated through the jungle. He started talking about the flora and fauna of the jungle, I was mesmerized by the amount of knowledge he has.
 
 As we reached the base of the steep rock I could see the entire village, I stood there enjoying its beauty. Nikhil suggested that we climb up the steep rock. It's a purely steep vertical climb, I went around it and told him that I won't be able to climb up. I told him I will wait at the base, he then went on to climb that rock, until then I had seen such feats of climbing only on National Geographic. The level of composure and confidence children at Kokodi have in their abilities was staggering to me.
 
@@ -71,7 +71,7 @@ I don't want to end this without giving solutions as to how we can create condit
 
 It comes from the supermarket, they said. Well, were they really wrong?.
 
-Once, I was walking through a village in Rajashtan, There are no 'walls' in that village. the kids were free to roam around. They went anywhere they pleased.  Kids had access to everything, they could go anywhere, see anything and do anything. But here was one place in the Village that had 'Walls'. A place that stood in contrast to it all,  the Village 'School'.
+Once, I was walking through a village in Rajashtan, There are no 'walls' in that village. the kids were free to roam around. They went anywhere they pleased.  Kids had access to everything, they could go anywhere, see anything and do anything. But there was one place in the Village that had 'Walls'. A place that stood in contrast to it all,  the Village 'School'.
 
 It will be a long time before we will be able to open up our cities for children to explore and learn, Currently I'm working on a piece that explores possible solutions that address this very issue, Once done, I will \[link\] it here
 
