@@ -27,4 +27,5 @@ fields:
   label: IMAGE
   name: image
 pages:
+- _posts/why-do-children-play.md
 - _posts/2018-09-12-why-does-suffering-in-schools-still-continue.md
