@@ -2854,6 +2854,12 @@
 				margin: 1.5rem 0;
 				/*width: calc(100% + (1.5em * 2)); */
 			}
+			.post.inner{
+				margin-top: 0;
+			}
+			.fullpost p{
+				line-height: 1.4;
+			}
 
 				.post > header {
 					padding: .5em 1.5em 0.5em 1.5em ;
@@ -3520,6 +3526,9 @@
 				padding: 1.5em;
 			}
 
+		}
+		.post-excerpt{
+			text-align: center;
 		}
 
   @media screen and (max-width: 480px){
