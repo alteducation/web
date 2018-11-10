@@ -4,8 +4,7 @@ layout: fullpost
 date: 2018-11-10 12:17:37 +0000
 excerpt: Children are fascinated by what's around them. When left free, they tend
   to explore the world. They observe, playfully imitate and engage with the things
-  around them. They are in a constant state of flow, fully consumed by what they are
-  at.
+  around them. They are in a constant state of flow, fully consumed by what they do.
 author: Alwin George
 image: "/uploads/skateboard-331751_1280.jpg"
 
