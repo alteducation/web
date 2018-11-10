@@ -2163,6 +2163,9 @@
 				.image.featured {
 					margin: 0 0 1.5em 0;
 				}
+				.post.inner .image.featured{
+					margin-bottom: 2rem;
+				}
 
 			}
 
@@ -3568,4 +3571,5 @@
 .fullpost img{
 	width: 90vw;
 	max-width: 350px;
+	margin: 1.5rem 0 0 0;
 }
