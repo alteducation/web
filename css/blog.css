@@ -3528,7 +3528,7 @@
 
 		}
 		.post-excerpt{
-			text-align: center;
+			text-align: center !important;
 		}
 
   @media screen and (max-width: 480px){
