@@ -9,7 +9,7 @@ author: Alwin George
 image: "/uploads/skateboard-331751_1280.jpg"
 
 ---
-If let free, wouldn't children just play around and have fun? Would they learn? This is a genuine concern that may parents have. Anyone who has been with a child knows that they just love to play and if given the opportunity they will play all day long. I wonder why children spend all their time in play? I was fascinated by this question. Are they just wasting their time or is there something to play that we don't truly appreciate.
+If let free, wouldn't children just play around and have fun? Would they learn? This is a genuine concern that may parents have. Anyone who has been with a child knows that they just love to play and if given the opportunity they will play all day long. I wonder why it is so? Why do children spend most of their time in play? Are they just wasting their time or is there something to play that we don't truly appreciate.
 
 After reading "Free to Learn" by Peter Gray I was introduced to the idea of learning without schools. The Idea that children are able to acquire the skills required to thrive in life without being 'taught' or 'schooled'. We often think of education as something that's done to children by Adults. Rarely do we think about education as an internal process. The Process of Wonder, Observation, Playfulness and Creative Imitation that every child is born with. A process that is capable of enabling children to excel at anything that's around them, without the need for being 'schooled' or 'taught'.
 
