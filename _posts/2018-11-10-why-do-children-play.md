@@ -15,7 +15,7 @@ After reading "Free to Learn" by Peter Gray I was introduced to the idea of lear
 
 Let's begin by looking at our notion of play. We define play as 'not work’, work is productive, it makes you a functioning member of society. The idea of schooling is to upskill children so that they are able to work and earn a decent living. Earning a livelihood is a fundamental and important aspect of life and I'm in no way questioning it.
 
-Yet, A [Gallup study](https://news.gallup.com/reports/199961/7.aspx) found that 51 Million Americans don't like the work they do, they live waiting for weekends and holidays. Do we want our children to go through life resented by what they do?
+Yet, A [Gallup study](https://news.gallup.com/reports/199961/7.aspx) found that 51 Million Americans don't like the work they do, they live waiting for weekends and holidays. Do we really want our children to go through life resented by what they do?
 
 Then, there are people who love what they do and are consumed by it, for them work is not something they do because they have to, but because they want to. They find sheer joy and happiness in it. These people are often in the forefronts of their fields, truly leaving a mark on the world. Strangely enough, these people don't have a distinction between work and play. They are in a state of flow or 'playfulness' like how children are.
 
