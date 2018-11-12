@@ -47,7 +47,7 @@ Children are fascinated by what's around them. When left free, they tend to expl
 
 The fundamental requirement of creativity is to be sensitive to the surrounding and to learn from it. Be it a designer or a writer the ability to pay attention and observe the things around them, to be present in the moment and to 'see' is the most important cognitive formation required for creativity.
 
-A good writer for example is one who notices the stories that are unfolding around him/her and is sensitive to it. An excellent designer notices the forms, colours and texture around him and encompasses it to their designs. If we want children to grow to be more creative, explorative, imaginative and confident and capable of creating knowledge, we need to let them play and explore freely.
+A good writer for example is one who notices the stories that are unfolding around him/her and is sensitive to it. An excellent designer notices the forms, colours and texture around him and encompasses it to their designs. If we want children to grow to be more creative, explorative, imaginative, confident and capable of creating knowledge, we need to let them play and explore freely.
 
 One of the foundations of a happy and capable life is to be able to take control of one’s life and navigate through uncertainty with confidence. During play children learn to take control of their lives, they learn to judge their abilities, try to overcome their fears and to push themselves forward. Children pick up the confidence to do things by acting on things they have never done before.
 
