@@ -15,7 +15,7 @@ After reading "Free to Learn" by Peter Gray I was introduced to the idea of lear
 
 Let's begin by looking at our notion of play. We define play as 'not work’, work is productive, it makes you a functioning member of society. The idea of schooling is to upskill children so that they are able to work and earn a decent living. Earning a livelihood is a fundamental and important aspect of life and I'm in no way questioning it.
 
-Yet, A [Gallup study](https://news.gallup.com/reports/199961/7.aspx) found that 51 Million Americans don't like the work they do, they live waiting for weekends and holidays. Do we want our children to go through life resented by what they do? 
+Yet, A [Gallup study](https://news.gallup.com/reports/199961/7.aspx) found that 51 Million Americans don't like the work they do, they live waiting for weekends and holidays. Do we want our children to go through life resented by what they do?
 
 Then, there are people who love what they do and are consumed by it, for them work is not something they do because they have to, but because they want to. They find sheer joy and happiness in it. These people are often in the forefronts of their fields, truly leaving a mark on the world. Strangely enough, these people don't have a distinction between work and play. They are in a state of flow or 'playfulness' like how children are.
 
@@ -35,9 +35,9 @@ We have all heard this in our schools, Do this or we’ll laugh at you, expel yo
 
 This fear that schools use as a tool to administer their students is toxic. Fear is easy to awake, easy to maintain, but ultimately toxic. It kills the human spirit. Passion, on the other hand can overcome fear, the fear of losing, of failing, of being ridiculed[\[3\]](https://sethgodin.typepad.com/files/stop-stealing-dreams6print.pdf). At the very instant we take away freedom and assume control over a child's learning, playfulness and passion cease to exist. In a caged mind, there is no space to explore or learn. The human spirit needs autonomy and freedom to thrive.
 
-Something that I have started doing recently is to read Books on 'Education', having gone through years of schooling reading a book was extremely hard for me. I hated books, books were something you had to endure to be let free to do the things you loved. School had successfully taught me to hate books. Only slowly have I began to appreciate books and started reading them for the fun of learning new things.
-
 "When we don't take away a child's love to learn, the amount of learning becomes limitless.", I have friends who knew all there is to know about cricket, they learned it out of love and passion for the game. They can produce stats about any game or player in an instant. I wonder if they were introduced to cricket in a classroom where they were asked to memorize 'stats' would they have learnt to hate the game?
+
+Something that I have started doing recently is to read Books on 'Education', having gone through years of schooling reading a book was extremely hard for me. I hated books, books were something you had to endure to be let free to do the things you loved. School had successfully taught me to hate books. Only slowly have I began to appreciate books and started reading them for the fun of learning new things.
 
 Children are fascinated by what's around them. When left free, they tend to explore the world. They observe, playfully imitate and engage with the things around them. They are in a constant state of flow, fully consumed by what they are doing. Children play based on their observations and experiences. They spend significant amounts of their time observing and imitating the things around them. Observation demands attention and concentration be developed. This leads to further interest in seeing details and how things happen.
 
