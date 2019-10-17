@@ -6,7 +6,7 @@ excerpt: Children are fascinated by what's around them. When left free, they ten
   to explore the world. They observe, playfully imitate and engage with the things
   around them. They are in a constant state of flow, fully consumed by what they do.
 author: Alwin George
-image: "/uploads/skateboard-331751_1280.jpg"
+image: "/uploads/playful-children.jpg"
 
 ---
 If let free, wouldn’t children just play around and have fun? Would they learn? This is a genuine concern that many parents have. Anyone who has been with a child knows that they just love to play, that if given the opportunity they will play all day long. I wonder why though? Why do children spend most of their time in play? Are they just wasting their time or is there something to play that we don’t truly appreciate.
