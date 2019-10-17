@@ -716,8 +716,7 @@ Footer
 }
 .modal-box {
   position: relative;
-  width: 90%;
-  max-width: 920px;
+  width: 95%;
   margin: 100px auto;
   background: #FFFFFF;
   animation-name: modalbox;
