@@ -16,9 +16,9 @@ fields:
       required: false
       options: []
       source:
-        type: pages
+        type: documents
         section: learning-spaces
-        file: 
+        file: _data/learning-spaces.json
         path: 
     label: approach
   - name: city
@@ -28,9 +28,9 @@ fields:
       required: false
       options: []
       source:
-        type: pages
+        type: documents
         section: learning-spaces
-        file: 
+        file: _data/learning-spaces.json
         path: 
     label: city
   - name: state
@@ -40,9 +40,9 @@ fields:
       required: false
       options: []
       source:
-        type: pages
+        type: documents
         section: learning-spaces
-        file: 
+        file: _data/learning-spaces.json
         path: 
     label: state
   - type: text
