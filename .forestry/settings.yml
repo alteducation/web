@@ -4,6 +4,11 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: document
+  path: _data/learning-spaces.json
+  label: Learning Spaces
+  match: "**/*"
+  read_only: false
 - type: jekyll-posts
   label: Posts
   create: all
