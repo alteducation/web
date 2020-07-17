@@ -1,11 +1,11 @@
 {
   "learning-spaces": [
     {
-      "approach": "Jiddu Krishnamurti School",
-      "city": "Chittoor",
+      "approach": "",
+      "city": "",
       "name": "Rishi Valley",
       "phone": "+91 8571280044",
-      "state": "Andhra Pradesh",
+      "state": "",
       "address": "Rishi Valley, Chittoor District, Madanapalle, Andhra Pradesh 517352, India",
       "website": "www.rishivalley.org",
       "image": "/img/rishi-valley-1.jpg",
@@ -49,11 +49,11 @@
       "description": "Ukti, the first Waldorf-inspired school in Delhi, was established by a small group of parents and educators, who were motivated by a great need, in the highly fast-paced, rapidly growing capital city of Delhi, for a school that pauses to embrace childhood and to awaken and guide each child's innate sense of wonder, as it steers the learning process from spark to flame."
     },
     {
-      "approach": "Aurobindo School",
-      "city": "Delhi",
+      "approach": "",
+      "city": "",
       "name": "Mirambika",
       "phone": "011- 26863741",
-      "state": "Delhi",
+      "state": "",
       "address": "Sri Aurobindo Ashram - Delhi Branch Sri Aurobindo Marg New Delhi 110016",
       "website": "www.mirambika.org",
       "image": "/img/mirambika-free-progress-school-1.jpg",
@@ -217,11 +217,11 @@
       "description": "A school is a place where one learns both the importance of knowledge and its limitation. It is a place where one learns to observe the world without a particular point of view or conclusion. One learns to look at the whole of man's endeavor, his search for beauty, his search for truth and a way of living that is not a contradiction between conclusion and action.It is a place where both teacher and the taught learn a way of life in which conflict ends.It is the concern of these schools to bring about a new generation of human beings who are free from self-centered action, to bring about a mind that has no conflict within itself and so end the struggle and conflict in the world about us."
     },
     {
-      "approach": "Waldorf Steiner & Democratic Education",
-      "city": "Kochi",
+      "approach": "",
+      "city": "",
       "name": "Bhoomi",
       "phone": "9972992288",
-      "state": "Kerala",
+      "state": "",
       "address": "MNF House , No 36/72 Pathadipalam,Edappally Kerala History Museum Campus, Ernakulam, Kerala 682024",
       "website": "www.bhoomischool.org",
       "image": "/img/bhoomi.jpg",
@@ -305,7 +305,7 @@
       "city": "Leh",
       "name": "Secmol",
       "phone": "+911982252421",
-      "state": "Leh",
+      "state": "Ladakh",
       "address": "PO Box 4 Leh, Ladakh J&K 194101, The campus is at Latitude 34.131247 N and Longitude 77.444531 E",
       "website": "http://secmol.org/",
       "image": "/img/secmol.jpg",
