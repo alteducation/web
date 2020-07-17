@@ -1,0 +1,38 @@
+---
+label: Learning Space
+hide_body: true
+fields:
+- type: field_group_list
+  name: learning-spaces
+  label: learning-spaces
+  fields:
+  - type: text
+    name: approach
+    label: approach
+  - type: text
+    name: city
+    label: city
+  - type: text
+    name: name
+    label: name
+  - type: text
+    name: phone
+    label: phone
+  - type: text
+    name: state
+    label: state
+  - type: text
+    name: address
+    label: address
+  - type: text
+    name: website
+    label: website
+  - type: file
+    name: image
+    label: image
+  - type: text
+    name: email
+    label: email
+  - type: textarea
+    name: description
+    label: description
