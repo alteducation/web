@@ -63,3 +63,5 @@ fields:
   - type: textarea
     name: description
     label: description
+pages:
+- _data/learning-spaces.json
