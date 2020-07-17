@@ -7,32 +7,59 @@ fields:
   label: learning-spaces
   fields:
   - type: text
-    name: approach
-    label: approach
-  - type: text
-    name: city
-    label: city
-  - type: text
     name: name
     label: name
-  - type: text
-    name: phone
-    label: phone
-  - type: text
-    name: state
+  - name: approach
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: learning-spaces
+        file: 
+        path: 
+    label: approach
+  - name: city
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: learning-spaces
+        file: 
+        path: 
+    label: city
+  - name: state
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: learning-spaces
+        file: 
+        path: 
     label: state
   - type: text
     name: address
     label: address
+  - type: text
+    name: phone
+    label: phone
+  - type: text
+    name: email
+    label: email
   - type: text
     name: website
     label: website
   - type: file
     name: image
     label: image
-  - type: text
-    name: email
-    label: email
   - type: textarea
     name: description
     label: description
