@@ -14,33 +14,65 @@ fields:
     default: []
     config:
       required: false
-      options: []
+      options:
+      - Open Learning Spaces
+      - Democratic Schools
+      - Waldorf
+      - Jiddu Krishnamurti
+      - Montessori Schools
+      - Aurobindo School
+      - Others
       source:
-        type: documents
+        type: simple
         section: learning-spaces
         file: _data/learning-spaces.json
         path: 
     label: approach
   - name: city
-    type: select
-    default: []
+    type: text
     config:
       required: false
-      options: []
-      source:
-        type: documents
-        section: learning-spaces
-        file: _data/learning-spaces.json
-        path: 
     label: city
   - name: state
     type: select
     default: []
     config:
       required: false
-      options: []
+      options:
+      - Andhra Pradesh
+      - Arunachal Pradesh
+      - Assam
+      - Bihar
+      - Chhattisgarh
+      - Goa
+      - Gujarat
+      - Haryana
+      - Himachal Pradesh
+      - Jharkhand
+      - Karnataka
+      - Kerala
+      - Madhya Pradesh
+      - Maharashtra
+      - Manipur
+      - Meghalaya
+      - Mizoram
+      - Nagaland
+      - Odisha
+      - Punjab
+      - Rajasthan
+      - Sikkim
+      - Tamil Nadu
+      - Telangana
+      - Tripura
+      - Uttar Pradesh
+      - Uttarakhand
+      - West Bengal
+      - Delhi
+      - Puducherry
+      - Ladakh
+      - Jammu and Kashmir
       source:
-        type: documents
+        type: simple
         section: learning-spaces
         file: _data/learning-spaces.json
         path: 
