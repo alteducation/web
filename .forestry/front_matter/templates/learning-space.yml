@@ -9,11 +9,13 @@ fields:
   - type: text
     name: name
     label: name
+    config:
+      required: true
   - name: approach
     type: select
     default: []
     config:
-      required: false
+      required: true
       options:
       - Open Learning Spaces
       - Democratic Schools
@@ -31,13 +33,13 @@ fields:
   - name: city
     type: text
     config:
-      required: false
+      required: true
     label: city
   - name: state
     type: select
     default: []
     config:
-      required: false
+      required: true
       options:
       - Andhra Pradesh
       - Arunachal Pradesh
@@ -80,6 +82,8 @@ fields:
   - type: text
     name: address
     label: address
+    config:
+      required: true
   - type: text
     name: phone
     label: phone
@@ -95,5 +99,7 @@ fields:
   - type: textarea
     name: description
     label: description
+    config:
+      required: true
 pages:
 - _data/learning-spaces.json
